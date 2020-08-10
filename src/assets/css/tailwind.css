@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    src: url('../fonts/Graphik/GraphikSuper.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Graphik/GraphikBlack.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Graphik/GraphikBold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Graphik/GraphikSemibold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Graphik/GraphikMedium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Graphik/GraphikRegular.otf') format('opentype');
+}
+@tailwind utilities;
