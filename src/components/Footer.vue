@@ -1,5 +1,5 @@
 <template>
-	<div class="pb-8">
+	<div class="pb-8 container mx-auto">
 		<hr style="background: #1F3564;" />
 		<div class="pt-6 text-blue-600">
 			<div class="flex flex-wrap lg:justify-between items-center m-auto">

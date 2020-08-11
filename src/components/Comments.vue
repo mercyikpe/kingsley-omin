@@ -1,5 +1,5 @@
 <template>
-	<div class="mt-32 ">
+	<div class="mt-32">
 		<div class="max-w-6xl mx-auto py-24 px-8">
 			<h3 class="text-4xl font-semibold text-center text-blue-700">Comment from teammates</h3>
 

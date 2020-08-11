@@ -10,7 +10,7 @@
 					<div class="flex items-center h-full text-left">
 						<div class="px-10 max-w-lg">
 							<h2 class="text-4xl text-blue-800 font-semibold leading-none">Some of my random designs</h2>
-							<p class="mt-10 text-blue-600">
+							<p class="mt-10 text-blue-600 text-xl">
 								So when I'm not working on a real-life project or reading design-related books
 								and articles, I keep myself busy by creating beautiful design mock-ups.
 							</p>

@@ -15,41 +15,16 @@
 					<img class="h-full w-4/5" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596703082/kingsley%20omin/ko.png" alt="Kingsley Omin">
 				</div>
 			</div>
-			<div class="absolute right-0 top-0 mr-24 mt-24 pt-3">
-				<div class="pb-8">
-					<Icon
-							name="light-switch"
-							class="cursor-pointer hover:opacity-75"
-							title="switch"
-							width="30"
-					/>
-				</div>
-				<p class="transform -rotate-90 mt-2">Switch View</p>
+			<div class="absolute right-0 top-0 mt-24 pt-3 mr-12">
+				<Icon
+						name="light-switch"
+						class="cursor-pointer hover:opacity-75 pb-8"
+						title="switch"
+						width="30"
+				/>
+				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 -ml-8">Switch View</p>
 			</div>
 		</section>
-
-<!--		<MyProjects />-->
-
-<!--		<section class="bg-purple-100 py-4">-->
-<!--			<SavologyProfile/>-->
-<!--		</section>-->
-
-<!--		<section class="bg-white py-4">-->
-<!--			<Dryva />-->
-<!--		</section>-->
-
-<!--		<section class="bg-white py-4">-->
-<!--			<RandomDesign />-->
-<!--		</section>-->
-
-<!--		<section class="bg-white">-->
-<!--			<MakeSomethingGreat />-->
-<!--		</section>-->
-
-<!--		<section class="bg-white">-->
-<!--			<Comments />-->
-<!--		</section>-->
-
 
 	</main>
 </template>
@@ -57,16 +32,8 @@
 <script>
 	import Icon from "../assets/icons/Icon";
 	import NavBar from "./NavBar";
-	// import MyProjects from "./MyProjects";
-	// import SavologyProfile from "./Savology-profile";
-	// import Dryva from "./Dryva";
-	// import RandomDesign from "./Random-Design";
-	// import MakeSomethingGreat from "./MakeSomethingGreat";
-	// 	import Comments from "./Comments";
-
 	export default {
 		name: "Hero",
-		// components: {Comments, MakeSomethingGreat, RandomDesign, Dryva, SavologyProfile, MyProjects, NavBar, Icon}
 		components: {NavBar, Icon}
 	}
 </script>
