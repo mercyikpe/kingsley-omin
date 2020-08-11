@@ -3,13 +3,13 @@
 		<!--      <router-link to="/">Home</router-link> |-->
 		<!--      <router-link to="/about">About</router-link>-->
 		<router-view/>
-		<Footer />
+		<Footer class="hidden lg:block" />
 	</div>
 </template>
 
 <style>
 	#app {
-		font-family: Avenir, Helvetica, Arial, sans-serif;
+		font-family: Graphik, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
