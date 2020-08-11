@@ -1,7 +1,7 @@
 <template>
 	<main class="bg-white relative font-Graphik">
-		<div class="container mx-auto px-4 lg:px-0 relative z-40 pt-6 relative">
-			<NavBar class="hidden lg:block"/>
+		<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
+			<Header />
 		</div>
 		<section class="py-6">
 			<div class="container px-4 lg:px-0 mx-auto flex flex-col sm:flex-row lg:justify-between items-center relative">
@@ -35,10 +35,11 @@
 
 <script>
 	import Icon from "../assets/icons/Icon";
-	import NavBar from "./NavBar";
+	import Header from "./Header";
+
 	export default {
 		name: "Hero",
-		components: {NavBar, Icon}
+		components: {Icon, Header}
 	}
 </script>
 

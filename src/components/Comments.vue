@@ -13,7 +13,7 @@
 									exceptional quality of work in time. It is always a pleasure to work with and we look forward
 									to working with him again.
 								</p>
-								<div class="pt-6 text-center lg: text-left">
+								<div class="pt-6 text-center lg:text-left">
 									<h5 class="text-blue-800 font-semibold text-sm">Mercy Ikpe</h5>
 									<h6 class="text-blue-800  text-xs mt-1">Frontend Developer</h6>
 								</div>
