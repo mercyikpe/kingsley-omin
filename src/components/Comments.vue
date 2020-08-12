@@ -39,7 +39,7 @@
 				</div>
 			</div>
 
-			<div class="carousel relative mt-6 lg:hidden">
+			<div class="carousel relative mt-6 md:hidden">
 				<div class="carousel-inner relative overflow-hidden w-full">
 					<!--Slide 1-->
 					<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">

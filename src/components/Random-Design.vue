@@ -1,7 +1,7 @@
 <template>
 	<div class="my-8">
 		<div class="container mx-auto lg:px-24">
-			<div class="flex flex-wrap lg:flex-no-wrap lg:-mx-4">
+			<div class="flex flex-wrap md:flex-no-wrap lg:-mx-4">
 				<div class="w-full md:w-1/2 pt-12 lg:pt-32 px-8 lg:px-0 order-last">
 					<img class="" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596748576/kingsley%20omin/random-design.png" alt="random design">
 				</div>

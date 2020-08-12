@@ -4,8 +4,8 @@
 			<Header />
 		</div>
 		<section class="py-6">
-			<div class="container px-4 lg:px-0 mx-auto flex flex-col sm:flex-row lg:justify-between items-center relative">
-				<div class="sm:w-1/2 xl:w-3/6 flex flex-col items-start py-8 sm:py-0 text-center lg:text-left">
+			<div class="container px-4 lg:px-0 mx-auto flex flex-col md:flex-row lg:justify-between items-center relative">
+				<div class="w-full xl:w-3/6 flex flex-col items-start py-8 text-center lg:text-left">
 					<h1 class="text-9xl text-blue-700 font-bold leading-none hidden lg:flex">Kingsley <br/> Omin</h1>
 					<h1 class="text-4xl text-blue-700 font-bold leading-none lg:hidden mx-auto mb-6">Kingsley Omin</h1>
 					<h2 class="text-xl xl:text-2xl text-yellow-600 font-medium leading-none mt-4 mb-2 lg:mb-6 tracking-tight mx-auto lg:ml-0">A Product Designer</h2>
@@ -16,7 +16,7 @@
 
 				<div class="items-center flex justify-center xl:justify-end w-full xl:w-4/6 lg:py-20">
 <!--					<img class="h-full lg:w-4/5" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596703082/kingsley%20omin/ko.png" alt="Kingsley Omin">-->
-					<img class="h-full lg:w-4/5" src="../assets/images/KingsleyOmin.png" alt="Kingsley Omin">
+					<img class="h-auto lg:w-4/5" src="../assets/images/KingsleyOmin.png" alt="Kingsley Omin">
 				</div>
 			</div>
 			<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">

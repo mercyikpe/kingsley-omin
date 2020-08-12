@@ -1,51 +1,53 @@
 <template>
-	<div class="pb-8 container mx-auto">
-		<hr style="background: #1F3564;" />
+	<div class="pb-10 container mx-auto px-4 lg:px-0">
+		<hr style="background: #1F3564; opacity: 0.33; height: 2px;" />
 		<div class="pt-6 text-blue-600">
-			<div class="flex flex-wrap lg:justify-between items-center m-auto">
-				<div class="flex flex-col lg:flex-row mx-auto lg:mx-0">
+
+			<div class="flex flex-wrap md:justify-between md:flex-no-wrap items-center m-auto">
+				<div class="flex flex-row items-center mx-auto mx-0 w-full pt-6">
+
 					<img class="h-10 w-16 self-center" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596667405/kingsley%20omin/favicon.png" alt="logo" />
 
-					<ul class="flex flex-row items-center mb-8 lg:mb-0 lg:ml-24">
-						<li class="border-t md:border-none px-4 lg:px-0">
-							<a href="/" class="sm:px-4 py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
-								Portfolio
+					<ul class="flex flex-row justify-between md:justify-start items-center lg:mb-0 ml-12 md:ml-16 lg:ml-24 w-full">
+						<li class="">
+							<a href="/" class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
+								Works
 							</a>
 						</li>
 
-						<li class="border-t md:border-none px-4 lg:px-0">
-							<a href="/" class="sm:px-4 py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
-								Work
+						<li class="">
+							<a href="/" class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
+								About Me
 							</a>
 						</li>
 
-						<li class="border-t md:border-none px-4 lg:px-0">
-							<a href="/" class="sm:px-4 py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
+						<li class="">
+							<a href="/" class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
 								Contact
 							</a>
 						</li>
 					</ul>
 				</div>
 
-				<div class="w-full sm:block lg:w-1/4 mt-2 md:text-left" id="contact">
-					<address class="flex justify-center items-center md:justify-start">
-						<a href="tel:+2347033218457" class="block md:inline-block px-1 no-underline">
+				<div class="w-full sm:block lg:w-1/3 mt-6 md:mt-2 md:text-left pt-8 md:pt-0" id="contact">
+					<address class="flex justify-start items-center">
+						<a href="tel:+2347033218457" class="flex items-center px-1 no-underline">
 							<Icon
 									name="call"
 									class="fa-2x cursor-pointer hover:opacity-75"
 									title="Logo"
 									width="30"
-							/> +234 703 321 8457
+							/> <span class="-mt-2">+234 703 321 8457</span>
 						</a>
 					</address>
-					<address class=" flex justify-center md:justify-start mt-2">
-						<a href="mailto:kingsleyomin23@gmail.com" class="block md:inline-block px-1 no-underline">
+					<address class=" flex justify-start items-center mt-2">
+						<a href="mailto:kingsleyomin23@gmail.com" class="flex items-center px-1 no-underline">
 							<Icon
 									name="email"
 									class="fa-2x cursor-pointer hover:opacity-75"
 									title="Logo"
 									width="30"
-							/> kingsleyomin23@gmail.com
+							/> <span class="-mt-2">kingsleyomin23@gmail.com</span>
 						</a>
 					</address>
 				</div>
@@ -55,17 +57,19 @@
 
 		<div class="">
 			<div class="flex pb-5 m-auto pt-5 flex-wrap lg:justify-between items-center">
+
 				<div class="w-full lg:w-3/4 mt-2 text-center lg:text-left order-last lg:order-first">
-					<p class="text-sm md:text-base mt-4 lg:pt-0 text-blue-600">
+					<p class="text-base mt-4 lg:pt-0 text-blue-600">
 						© 2020 Kingsley Omin. All Rights Reserved.
 					</p>
 				</div>
-				<div class="w-full lg:w-1/4">
-					<div class="md:flex-auto mt-6 lg:mt-2 flex-row flex justify-center lg:justify-start">
 
-						<ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
-							<li class="border-t md:border-none">
-								<a href="/" class="block md:inline-block px-2 no-underline">
+				<div class="w-full lg:w-1/4 pb-6 md:pb-0">
+					<div class="md:flex-auto mt-2 flex-row flex justify-center lg:justify-start">
+
+						<ul class="flex justify-start md:justify-end list-reset m-0 w-full md:w-auto">
+							<li>
+								<a href="/" class="block md:inline-block pr-2 no-underline">
 									<Icon
 											name="dribble"
 											class="fa-2x cursor-pointer hover:opacity-75"
@@ -75,7 +79,7 @@
 								</a>
 							</li>
 
-							<li class="border-t md:border-none">
+							<li>
 								<a href="/" class="block md:inline-block px-2 no-underline">
 									<Icon
 											name="linked-in"
@@ -86,7 +90,7 @@
 								</a>
 							</li>
 
-							<li class="border-t md:border-none">
+							<li>
 								<a href="/" class="block md:inline-block px-2 no-underline">
 									<Icon
 											name="twitter"
@@ -97,7 +101,7 @@
 								</a>
 							</li>
 
-							<li class="border-t md:border-none">
+							<li class="">
 								<a href="/" class="block md:inline-block pl-2 no-underline">
 									<Icon
 											name="medium"
@@ -107,7 +111,6 @@
 									/>
 								</a>
 							</li>
-
 						</ul>
 					</div>
 				</div>
