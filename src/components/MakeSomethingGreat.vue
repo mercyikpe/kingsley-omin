@@ -1,6 +1,5 @@
 <template>
-	<div class="my-32 mx-6 lg:mx-0">
-		<div class="max-w-full lg:max-w-6xl mx-auto py-16 lg:py-24 px-4 lg:px-8 bg-yellow-700 text-white rounded-lg flex">
+	<div class="max-w-full mx-auto py-16 lg:py-24 px-4 lg:px-8 flex mx-6 lg:mx-0">
 			<Icon
 					name="quote-sm"
 					class="cursor-pointer hover:opacity-75 lg:hidden pt-2"
@@ -21,7 +20,6 @@
 				</a>
 			</div>
 		</div>
-	</div>
 </template>
 
 <script>

@@ -3,15 +3,12 @@
 		<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
 			<Header />
 		</div>
+
 		<section class="py-6">
 			<div class="container px-4 lg:px-0 mx-auto flex flex-col md:flex-row lg:justify-between items-center relative">
 				<div class="w-full xl:w-3/6 flex flex-col items-start py-8 text-center lg:text-left">
-					<h1 class="text-9xl text-blue-700 font-bold leading-none hidden lg:flex">Kingsley <br/> Omin</h1>
-					<h1 class="text-4xl text-blue-700 font-bold leading-none lg:hidden mx-auto mb-6">Kingsley Omin</h1>
-					<h2 class="text-xl xl:text-2xl text-yellow-600 font-medium leading-none mt-4 mb-2 lg:mb-6 tracking-tight mx-auto lg:ml-0">A Product Designer</h2>
-					<p class="tracking-normal text-blue-800 font-medium px-5 lg:px-0">A user experience designer with a deep understanding of the principle of (UX), and versed in designing for different platforms.</p>
-
-					<a href="#" class="text-white sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium mx-auto lg:ml-0">GET IN TOUCH</a>
+					<h1 class="text-9xl text-blue-700 font-semibold leading-none hidden lg:flex">Hi there,<br/>nice to <br/> meet you.</h1>
+					<h1 class="text-4xl text-blue-700 font-semibold leading-none lg:hidden mx-auto mb-6">Hi there,<br/>nice to <br/> meet you.</h1>
 				</div>
 
 				<div class="items-center flex justify-center md:justify-end w-full xl:w-4/6 lg:py-20">
@@ -38,7 +35,7 @@
 	import Header from "./Header";
 
 	export default {
-		name: "Hero",
+		name: "AboutHero",
 		components: {Icon, Header}
 	}
 </script>
