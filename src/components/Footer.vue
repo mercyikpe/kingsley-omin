@@ -10,21 +10,33 @@
 
 					<ul class="flex flex-row justify-between md:justify-start items-center lg:mb-0 ml-12 md:ml-16 lg:ml-24 w-full">
 						<li class="">
-							<a href="/" class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
+							<router-link
+									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700"
+									:to="{ name: 'works' }"
+									active-class="text-yellow-600"
+									exact>
 								Works
-							</a>
+							</router-link>
 						</li>
 
 						<li class="">
-							<a href="/" class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
+							<router-link
+									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700"
+									:to="{ name: 'about' }"
+									active-class="text-yellow-600"
+									exact>
 								About Me
-							</a>
+							</router-link>
 						</li>
 
 						<li class="">
-							<a href="/" class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700">
+							<router-link
+									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700"
+									:to="{ name: 'contact' }"
+									active-class="text-yellow-600"
+									exact>
 								Contact
-							</a>
+							</router-link>
 						</li>
 					</ul>
 				</div>
