@@ -15,7 +15,11 @@
 								and articles, I keep myself busy by creating beautiful design mock-ups.
 							</p>
 							<div class="mt-10">
-								<a href="#" class="text-white sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium">GET IN TOUCH</a>
+								<router-link
+										class="text-white sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium"
+										:to="{ name: 'contact' }">
+									GET IN TOUCH
+								</router-link>
 							</div>
 						</div>
 					</div>

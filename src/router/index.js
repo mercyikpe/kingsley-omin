@@ -31,6 +31,16 @@ Vue.use(VueRouter)
     path: '/contact',
     name: 'contact',
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+  },
+  {
+    path: '/savology',
+    name: 'savology',
+    component: () => import(/* webpackChunkName: "about" */ '../views/SavologyDetails.vue')
+  },
+  {
+    path: '/dryva',
+    name: 'dryva',
+    component: () => import(/* webpackChunkName: "about" */ '../views/DryvaDetails.vue')
   }
 ]
 

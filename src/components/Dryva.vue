@@ -10,7 +10,13 @@
 								Dryva is a professional hiring service that connects trusted drivers
 								to clients who already own vehicles but require drivers.</p>
 							<div class="mt-10">
-								<a href="#" class="text-white sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium">CASE STUDY</a>
+								<div class="mt-10">
+									<router-link
+											class="text-white sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium"
+											:to="{ name: 'dryva' }">
+										CASE STUDY
+									</router-link>
+								</div>
 							</div>
 						</div>
 					</div>
