@@ -4,8 +4,8 @@
 			<Header />
 		</div>
 
-		<section class="pb-12 pt-12">
-			<div class="items-center flex justify-center w-full px-32">
+		<section class="lg:pb-12 lg:pt-12">
+			<div class="items-center flex justify-center w-full px-2 md:px-8 lg-px-24 xl:px-32">
 				<img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308307/kingsley%20omin/SAVOLOGY-banner.png" alt="Project Savology">
 			</div>
 
@@ -22,15 +22,15 @@
 
 		<section id="savology-paragraph" class="container mx-auto text-blue-600 text-base px-4">
 			<div class="mt-12 md:mt-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Overview</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Overview</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					Savology is a mobile application that enables parents and guardians to save money specifically for their children’s university education.
 				</p>
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">The Challenge</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">The Challenge</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					The costs of higher education all over the world continue to rise while the possibilities of affording this education continue to
 					decrease. Even with help from parents or guardians many Nigerians still struggle to meet the financial demands of world-class
 					universities. Meaningful university education now seems to be within the reach of only individuals from highly privileged backgrounds
@@ -44,26 +44,26 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Goals & Objectives</h3>
-				<ul class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Goals & Objectives</h3>
+				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
 						<Icon
 								name="bullet"
-								class="align-bottom mr-4"
+								class="align-bottom mr-2 md:mr-4"
 								title="bullet"
 						/>
 						To help parent plan for their children’s university education.</li>
 					<li class="my-4">
 						<Icon
 								name="bullet"
-								class="align-bottom mr-4"
+								class="align-bottom mr-2 md:mr-4"
 								title="bullet"
 						/>
 						To re-install confidence and ease some of the problems that comes with parenting.</li>
 					<li>
 						<Icon
 								name="bullet"
-								class="align-bottom mr-4"
+								class="align-bottom mr-2 md:mr-4"
 								title="bullet"
 						/>
 						To achieve a product with minimal UI designs, easy navigation and fewer user actions.</li>
@@ -71,8 +71,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Research</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Research</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					With a better understanding of the problem, I began my research with a competitive analysis to understand the landscape
 					I was venturing into. I find information on existing apps, the apps people liked versus those they didn’t like and I got
 					acquainted with other available products to understand their features and USP’s. With my target audience being guardians,
@@ -81,11 +81,11 @@
 				</p>
 
 				<h4 class="text-xl font-semibold text-blue-600 mt-6">Some of the research findings</h4>
-				<ul class="mt-10">
+				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
 						<Icon
 								name="bullet"
-								class="align-bottom mr-4"
+								class="align-bottom mr-2 md:mr-4"
 								title="bullet"
 						/>
 						People are willing to spend a considerable amount of money on their children’s university education due to perceptions
@@ -94,7 +94,7 @@
 					<li class="my-4">
 						<Icon
 								name="bullet"
-								class="align-bottom mr-4"
+								class="align-bottom mr-2 md:mr-4"
 								title="bullet"
 						/>
 						They welcome the idea of having an application that helps them save but are more concerned about the stability and
@@ -104,7 +104,7 @@
 					<li>
 						<Icon
 								name="bullet"
-								class="align-bottom mr-4"
+								class="align-bottom mr-2 md:mr-4"
 								title="bullet"
 						/>
 						Rather than just saving the money and cashing-out the same amount people prefer to invest and get interested in return.
@@ -115,8 +115,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">User Persona</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">User Persona</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					These research questions gave me better insight into my intended audience and helped me to identify their pain points.
 					To give personality to my research I created a user persona
 				</p>
@@ -127,8 +127,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">User Flow</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">User Flow</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					The user flow diagram gives an insight into how things are organized inside of the application and it also
 					makes it easier to continue the design process.
 				</p>
@@ -139,8 +139,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Wire Frames</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Wire Frames</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					I usually get attached to a single idea while sketching and creating a wireframe, but for this project,
 					I tried to detach myself from that mindset and instead adopted multiple layouts. I found inspiration from
 					Dribbble and other platforms. Wireframes are easier and faster ways of representing and testing your ideas,
@@ -155,8 +155,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Visual Design</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Visual Design</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					With my potential users being guardians, parents and intending parents I wanted a design that made them feel good and relaxed.
 					For the product personality, I had three key things in mind; a clean design, smart & elegant logo and novelty. I tried to stick
 					to those while designing the visuals. These concepts were adopted into the logo design
@@ -168,8 +168,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Home Sreen</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Home Sreen</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					The home screen of the app is the first screen a user sees after logging in. This screen contains all the primary actions
 					of the app, this helps to ease navigation to different screens. The home screen displays the user’s total balance and a
 					user can easily create an education trust fund. Each screen had multiple iterations before I decided on the final design,
@@ -183,8 +183,8 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-3xl font-semibold text-blue-600">Creating an Education Trust Fund</h3>
-				<p class="mt-10">
+				<h3 class="text-2xl md:text-2xl md:text-3xl font-semibold text-blue-600">Creating an Education Trust Fund</h3>
+				<p class="mt-4 md:mt-8 lg:mt-10">
 					From the home page, a user can create either a dollar or a naira education trust funds in a few simple steps. The process
 					involves a user clicking either one and customizing it by naming it after the child he or she is saving for and then selects
 					if he/she wants the savings on the trust fund to be automated or not, if yes a user set how often he wants that to happen,
@@ -193,8 +193,8 @@
 					on the system and proceed to successfully create an education trust fund for his or her child.
 				</p>
 
-				<div class="p-16 bg-purple-200 rounded-lg mt-10">
-					<div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-5 gap-8 py-6">
+				<div class="p-8 md:p-12 lg:p-24 bg-purple-200 rounded-lg mt-10">
+					<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 py-6">
 					<div>
 						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-1.png" alt="Project Savology">
 					</div>
