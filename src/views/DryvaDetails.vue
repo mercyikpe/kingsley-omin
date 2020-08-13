@@ -233,7 +233,7 @@
 			</div>
 
 
-			<div class="my-16">
+			<div class="my-16 hidden">
 				<a
 						href="https://www.figma.com/proto/fxgWKYHKuPLPIc8uh1s1Dg/SAVOLOGY?node-id=196%3A11118&viewport=579%2C421%2C0.03894153609871864&scaling=min-zoom"
 						class="underline sm:font-xl text-yellow-600 mt-8 font-medium">
