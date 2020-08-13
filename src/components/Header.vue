@@ -28,7 +28,7 @@
 										:to="{ name: 'works' }"
 										active-class="border-b-2 border-yellow-600 text-yellow-600"
 										exact>
-									Work
+									Works
 								</router-link>
 
 								<router-link

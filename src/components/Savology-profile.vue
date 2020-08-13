@@ -2,7 +2,7 @@
 	<div class="my-8">
 		<div class="container mx-auto px-6">
 			<div class="flex flex-wrap lg:flex-no-wrap lg:-mx-4">
-				<div class="w-full md:w-1/2 pt-12 lg:pt-32 order-last">
+				<div class="w-full md:w-1/2 pt-12 lg:pt-32 order-last lg:order-first">
 					<img class="" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596748570/kingsley%20omin/savology.png" alt="savology">
 				</div>
 
