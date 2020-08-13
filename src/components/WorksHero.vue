@@ -7,7 +7,7 @@
 		<section class="py-6">
 			<div class="container px-4 lg:px-0 mx-auto flex flex-col md:flex-row lg:justify-between items-center relative">
 				<div class="w-full xl:w-3/6 flex flex-col items-start py-8 text-center lg:text-left">
-					<h1 class="text-4xl md:text-5xl lg:text-9xl text-blue-700 font-semibold leading-none hidden lg:flex">Some of
+					<h1 class="text-4xl md:text-5xl lg:text-9xl text-blue-700 font-semibold leading-none mx-auto lg:ml-0">Some of
 						<br/>my work.</h1>
 				</div>
 

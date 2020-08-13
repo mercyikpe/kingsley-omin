@@ -12,7 +12,7 @@
 							<h1 class="text-9xl text-blue-700 font-semibold leading-none hidden lg:flex">Say hello 👋</h1>
 							<h1 class="text-4xl text-blue-700 font-semibold leading-none lg:hidden mx-auto mb-6">Say hello 👋</h1>
 
-							<div class="mt-12 xl:mt-32">
+							<div class="mt-12 xl:mt-32 mx-2 md:mx-0">
 								<div class="flex items-center text-left">
 									<p class="w-1/2 text-base md:text-xl text-blue-700">Shoot me an email</p>
 									<a href="mailto:kingsleyomin23@gmail.com" class="w-1/2 text-base md:text-xl underline text-yellow-600">
