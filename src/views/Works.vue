@@ -37,9 +37,6 @@
 			<section class="bg-white dark:bg-black">
 				<Dryva />
 			</section>
-<!--			<section class="pb-8 lg:pb-24">-->
-<!--				<Dryva />-->
-<!--			</section>-->
 
 		</div>
 

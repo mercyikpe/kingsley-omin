@@ -1,5 +1,5 @@
 <template>
-	<main class="bg-white relative font-Graphik">
+	<main class="bg-white dark:bg-black relative font-Graphik">
 		<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
 			<Header />
 		</div>
@@ -9,26 +9,21 @@
 				<img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312633/kingsley%20omin/Dryva-banner.png" alt="Project Dryva">
 			</div>
 
-			<div class="absolute right-0 top-0 mt-24 pt-24 mr-8 hidden lg:block">
-				<Icon
-						name="light-switch"
-						class="cursor-pointer hover:opacity-75 pb-8 pt-2"
-						title="switch"
-						width="30"
-				/>
-				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 -ml-8">Switch View</p>
+			<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
+				<DarkModeToggle />
+				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 dark:text-white -ml-8" @click="alert">Switch View</p>
 			</div>
 		</section>
 
-		<section id="savology-paragraph" class="container mx-auto text-blue-600 text-base px-4">
+		<section id="savology-paragraph" class="container mx-auto text-blue-600 dark:text-white text-base px-4">
 			<div class="mt-12 md:mt-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Overview</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Overview</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					Dryva is a professional hiring service that connects trusted drivers to clients who already own vehicles but require drivers.				</p>
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">The Challenge</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">The Challenge</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					For a city like Lagos, ride-hailing apps are essential, they help to ease the stresses of daily commutes and provide an alternative to public transportation. However, current ride-hailing operations inadvertently leave the needs of one core demographic unmet. This underserved market is made up of individual car owners who prefer to occasionally be driven by a driver — as a means of coping with the stressful lifestyle associated with large urban cities, such as traffic congestion, and long commute times.
 					<br>
@@ -37,7 +32,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Goals & Objectives</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Goals & Objectives</h3>
 				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
 						<Icon
@@ -67,18 +62,18 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Team</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Team</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The design team consisted of myself and @namnsoukpanah. We had three weeks to create the designs that will help our users reach this goal.
 				</p>
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Research</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Research</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					With a better understanding of the product, we began the research with the assumption that the user base would be mostly the middle-class individuals with jobs and other life activities that required them to commute often. After developing a research plan that included brainstorming with the team, creating and deploying a survey and conducting a series of interviews, we set out to conduct the user research. We started by interviewing some friends who were car owners.				</p>
 
-				<h4 class="text-xl font-semibold text-blue-600 mt-6">Some research questions we asked</h4>
+				<h4 class="text-xl font-semibold text-blue-600 dark:text-white mt-6">Some research questions we asked</h4>
 				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li class="my-4">
 						<Icon
@@ -129,7 +124,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">User Persona</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">User Persona</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					Based on the findings from the research and interviews, we were able to create a user persona to have a more critical understanding of the user.
 				</p>
@@ -140,7 +135,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">User Flow</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">User Flow</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					From all the information gathered, we created a user flow for the product. We aimed to help define the likely steps a user might take through various pages and actions on the app to complete their goal. Not only did this help us minimize user actions, it also helped us to deliver a better experience in the most effective way possible.
 				</p>
@@ -151,7 +146,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Wire Frames</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Wire Frames</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					After brainstorming on all the outlined app features, wireframes were created to give a clearer understanding of the project structure to both the client and the development team, and likewise to create room for any adjustments. A wireframe is a visual representation of a user interface that shows the skeletal framework of the app. It is a faster method of planning the information architecture of the app transition.
 				</p>
@@ -204,7 +199,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Visual Design</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Visual Design</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also give the product an exciting feel.
 				</p>
@@ -292,10 +287,11 @@
 	import Icon from "../assets/icons/Icon";
 	import Header from "../components/Header";
 	import Footer from "../components/Footer";
+		import DarkModeToggle from "../components/DarkModeToggle";
 
 	export default {
 		name: "dryva",
-		components: {Footer, Icon, Header}
+		components: {DarkModeToggle, Footer, Icon, Header}
 	}
 </script>
 

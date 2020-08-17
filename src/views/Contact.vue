@@ -1,6 +1,7 @@
 <template>
 	<div class="min-h-screen flex flex-col font-sans contact-page bg-white dark:bg-black">
 		<div class="flex-grow pb-8">
+
 			<main class="relative">
 				<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
 					<Header />
@@ -32,13 +33,8 @@
 						</div>
 					</div>
 					<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
-						<Icon
-								name="light-switch"
-								class="cursor-pointer hover:opacity-75 pb-8 pt-2"
-								title="switch"
-								width="30"
-						/>
-						<p class="transform -rotate-90 mt-4 font-medium text-blue-800 -ml-8">Switch View</p>
+						<DarkModeToggle />
+						<p class="transform -rotate-90 mt-4 font-medium text-blue-800 dark:text-white -ml-8" @click="alert">Switch View</p>
 					</div>
 				</section>
 
@@ -52,10 +48,11 @@
 <script>
 	import Header from "../components/Header";
 	import Footer from "../components/Footer";
-	import Icon from "../assets/icons/Icon";
+	import DarkModeToggle from "../components/DarkModeToggle";
+
 	export default {
 		name: "Contact",
-		components: {Icon, Header, Footer}
+		components: {DarkModeToggle, Header, Footer}
 	}
 </script>
 

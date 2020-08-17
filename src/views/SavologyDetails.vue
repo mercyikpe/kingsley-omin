@@ -1,5 +1,5 @@
 <template>
-	<main class="bg-white relative font-Graphik">
+	<main class="bg-white dark:bg-black relative font-Graphik">
 		<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
 			<Header />
 		</div>
@@ -9,27 +9,22 @@
 				<img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308307/kingsley%20omin/SAVOLOGY-banner.png" alt="Project Savology">
 			</div>
 
-			<div class="absolute right-0 top-0 mt-24 pt-24 mr-8 hidden lg:block">
-				<Icon
-						name="light-switch"
-						class="cursor-pointer hover:opacity-75 pb-8 pt-2"
-						title="switch"
-						width="30"
-				/>
-				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 -ml-8">Switch View</p>
+			<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
+				<DarkModeToggle />
+				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 dark:text-white -ml-8" @click="alert">Switch View</p>
 			</div>
 		</section>
 
-		<section id="savology-paragraph" class="container mx-auto text-blue-600 text-base px-4">
+		<section id="savology-paragraph" class="container mx-auto text-blue-600 dark:text-white dark:text-white text-base px-4">
 			<div class="mt-12 md:mt-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Overview</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Overview</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					Savology is a mobile application that enables parents and guardians to save money specifically for their children’s university education.
 				</p>
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">The Challenge</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">The Challenge</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The costs of higher education all over the world continue to rise while the possibilities of affording this education continue to
 					decrease. Even with help from parents or guardians many Nigerians still struggle to meet the financial demands of world-class
@@ -44,7 +39,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Goals & Objectives</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Goals & Objectives</h3>
 				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
 						<Icon
@@ -71,7 +66,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Research</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Research</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					With a better understanding of the problem, I began my research with a competitive analysis to understand the landscape
 					I was venturing into. I find information on existing apps, the apps people liked versus those they didn’t like and I got
@@ -80,7 +75,7 @@
 					behaviour and pain point.
 				</p>
 
-				<h4 class="text-xl font-semibold text-blue-600 mt-6">Some of the research findings</h4>
+				<h4 class="text-xl font-semibold text-blue-600 dark:text-white dark:text-white mt-6">Some of the research findings</h4>
 				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
 						<Icon
@@ -115,7 +110,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">User Persona</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">User Persona</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					These research questions gave me better insight into my intended audience and helped me to identify their pain points.
 					To give personality to my research I created a user persona
@@ -127,7 +122,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">User Flow</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">User Flow</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The user flow diagram gives an insight into how things are organized inside of the application and it also
 					makes it easier to continue the design process.
@@ -139,7 +134,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Wire Frames</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Wire Frames</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					I usually get attached to a single idea while sketching and creating a wireframe, but for this project,
 					I tried to detach myself from that mindset and instead adopted multiple layouts. I found inspiration from
@@ -187,7 +182,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Visual Design</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Visual Design</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					With my potential users being guardians, parents and intending parents I wanted a design that made them feel good and relaxed.
 					For the product personality, I had three key things in mind; a clean design, smart & elegant logo and novelty. I tried to stick
@@ -200,7 +195,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600">Home Sreen</h3>
+				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Home Sreen</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The home screen of the app is the first screen a user sees after logging in. This screen contains all the primary actions
 					of the app, this helps to ease navigation to different screens. The home screen displays the user’s total balance and a
@@ -215,7 +210,7 @@
 			</div>
 
 			<div class="my-12 md:my-20">
-				<h3 class="text-2xl md:text-2xl md:text-3xl font-semibold text-blue-600">Creating an Education Trust Fund</h3>
+				<h3 class="text-2xl md:text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Creating an Education Trust Fund</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					From the home page, a user can create either a dollar or a naira education trust funds in a few simple steps. The process
 					involves a user clicking either one and customizing it by naming it after the child he or she is saving for and then selects
@@ -305,13 +300,14 @@
 </template>
 
 <script>
-	import Icon from "../assets/icons/Icon";
 	import Header from "../components/Header";
-		import Footer from "../components/Footer";
+	import Footer from "../components/Footer";
+	import DarkModeToggle from "../components/DarkModeToggle";
+		import Icon from "../assets/icons/Icon";
 
 	export default {
 		name: "savology",
-		components: {Footer, Icon, Header}
+		components: {Icon, DarkModeToggle, Footer, Header}
 	}
 </script>
 
