@@ -17,7 +17,8 @@
 						</div>
 
 						<div class="items-center flex justify-center md:justify-end w-full xl:w-4/6 lg:py-20">
-							<img class="h-auto lg:w-4/5" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597306363/kingsley%20omin/KingsleyOmin.png" alt="Kingsley Omin">
+							<img class="h-auto lg:w-4/5" src="../assets/images/about-hero.png" alt="Kingsley Omin">
+<!--							<img class="h-auto lg:w-4/5" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597306363/kingsley%20omin/KingsleyOmin.png" alt="Kingsley Omin">-->
 						</div>
 					</div>
 					<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
