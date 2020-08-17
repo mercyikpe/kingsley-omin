@@ -32,7 +32,7 @@
 									:to="{ name: 'about' }"
 									active-class="text-yellow-600"
 									exact>
-								About <span class="hidden sm:flex">Me</span>
+								About <span class="hidden sm:inline-flex">Me</span>
 							</router-link>
 						</li>
 
