@@ -11,7 +11,7 @@
 					<ul class="flex flex-row justify-between md:justify-start items-center lg:mb-0 ml-12 md:ml-16 lg:ml-24 w-full">
 						<li class="">
 							<router-link
-									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700"
+									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 dark:text-white hover:text-blue-700"
 									:to="{ name: 'works' }"
 									active-class="text-yellow-600"
 									exact>
@@ -21,7 +21,7 @@
 
 						<li class="">
 							<router-link
-									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700"
+									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 dark:text-white  hover:text-blue-700"
 									:to="{ name: 'about' }"
 									active-class="text-yellow-600"
 									exact>
@@ -31,7 +31,7 @@
 
 						<li class="">
 							<router-link
-									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 hover:text-blue-700"
+									class="py-2 block md:inline-block mx-4 no-underline text-blue-600 dark:text-white hover:text-blue-700"
 									:to="{ name: 'contact' }"
 									active-class="text-yellow-600"
 									exact>
@@ -46,10 +46,10 @@
 						<a href="tel:+2347033218457" class="flex items-center px-1 no-underline">
 							<Icon
 									name="call"
-									class="fa-2x cursor-pointer hover:opacity-75"
+									class="fa-2x cursor-pointer hover:opacity-75 dark:text-white "
 									title="Logo"
 									width="30"
-							/> <span class="-mt-2">+234 703 321 8457</span>
+							/> <span class="-mt-2 dark:text-white ">+234 703 321 8457</span>
 						</a>
 					</address>
 					<address class=" flex justify-start items-center mt-2">
@@ -59,7 +59,7 @@
 									class="fa-2x cursor-pointer hover:opacity-75"
 									title="Logo"
 									width="30"
-							/> <span class="-mt-2">kingsleyomin23@gmail.com</span>
+							/> <span class="-mt-2 dark:text-white ">kingsleyomin23@gmail.com</span>
 						</a>
 					</address>
 				</div>
@@ -71,7 +71,7 @@
 			<div class="flex pb-5 m-auto pt-5 flex-wrap lg:justify-between items-center">
 
 				<div class="w-full lg:w-3/4 mt-2 text-center lg:text-left order-last lg:order-first">
-					<p class="text-base mt-4 lg:pt-0 text-blue-600">
+					<p class="text-base mt-4 lg:pt-0 text-blue-600 dark:text-white ">
 						© 2020 Kingsley Omin. All Rights Reserved.
 					</p>
 				</div>

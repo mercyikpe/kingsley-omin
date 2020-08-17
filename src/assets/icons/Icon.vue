@@ -1,6 +1,7 @@
 <template>
 	<div
 			class="inline-block align-middle"
+			@click="$emit('click', $event)"
 			v-html="
 			require(`@/assets/icons/${name}.svg`)
 		"

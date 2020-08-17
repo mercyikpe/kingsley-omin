@@ -156,8 +156,50 @@
 					After brainstorming on all the outlined app features, wireframes were created to give a clearer understanding of the project structure to both the client and the development team, and likewise to create room for any adjustments. A wireframe is a visual representation of a user interface that shows the skeletal framework of the app. It is a faster method of planning the information architecture of the app transition.
 				</p>
 
-				<div class="w-full mt-10">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-wireframe.png" alt="Project Dryva">
+				<div class="p-8 md:p-12 lg:p-24 bg-gray-100 rounded-lg mt-10">
+					<div class="grid grid-cols-2 md:grid-cols-5 gap-8 py-6">
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-1.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-2.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-3.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-4.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-5.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-6.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-7.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-8.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-9.png" alt="Dryva wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-10.png" alt="Dryva wireframe">
+						</div>
+
+
+					</div>
 				</div>
 			</div>
 

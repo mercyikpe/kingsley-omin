@@ -16,7 +16,7 @@
 						<div class="hidden lg:flex flex-1 justify-between">
 							<div class="ml-24">
 								<router-link
-										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 font-medium"
+										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'home' }"
 										active-class="border-b-2 border-yellow-600 text-yellow-600"
 										exact>
@@ -24,7 +24,7 @@
 								</router-link>
 
 								<router-link
-										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 font-medium"
+										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'works' }"
 										active-class="border-b-2 border-yellow-600 text-yellow-600"
 										exact>
@@ -32,7 +32,7 @@
 								</router-link>
 
 								<router-link
-										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 font-medium"
+										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'about' }"
 										active-class="border-b-2 border-yellow-600 text-yellow-600"
 										exact>
@@ -40,7 +40,7 @@
 								</router-link>
 
 								<router-link
-										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 font-medium"
+										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'contact' }"
 										active-class="border-b-2 border-yellow-600 text-yellow-600"
 										exact>
@@ -111,8 +111,8 @@
 				</div>
 			</nav>
 
-			<div ref="myNav" class="flex flex-col min-h-screen overflow-hidden shadow-lg text-base font-medium bg-white overlay">
-				<div class="p-8 bg-white">
+			<div ref="myNav" class="flex flex-col min-h-screen overflow-hidden shadow-lg text-base font-medium bg-white dark:bg-black overlay">
+				<div class="p-8 bg-white dark:bg-black">
 					<!-- button to close the overlay -->
 					<div class="flex justify-between">
 						<router-link to="/">
@@ -129,7 +129,7 @@
 					<!-- overlay content -->
 					<div class="my-12">
 						<router-link
-								class="my-10 inline-block text-blue-600 hover:text-blue-700 font-medium"
+								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'home' }"
 								active-class="text-yellow-600"
 								exact>
@@ -137,7 +137,7 @@
 						</router-link>
 
 						<router-link
-								class="my-10 inline-block text-blue-600 hover:text-blue-700 font-medium"
+								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'works' }"
 								active-class="text-yellow-600"
 								exact>
@@ -145,7 +145,7 @@
 						</router-link>
 
 						<router-link
-								class="my-10 inline-block text-blue-600 hover:text-blue-700 font-medium"
+								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'about' }"
 								active-class="text-yellow-600"
 								exact>
@@ -153,7 +153,7 @@
 						</router-link>
 
 						<router-link
-								class="my-10 inline-block text-blue-600 hover:text-blue-700 font-medium"
+								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'contact' }"
 								active-class="text-yellow-600"
 								exact>
@@ -161,13 +161,10 @@
 						</router-link>
 
 						<div class="flex items-center my-10">
-							<Icon
-									name="light-switch"
-									class="cursor-pointer hover:opacity-75 mr-4"
-									title="switch"
-									width="30"
-							/>
-							<p class="font-medium text-blue-800">Switch View</p>
+							<div class="inline-flex mr-4 mt-6">
+								<DarkModeToggle />
+							</div>
+							<p class="font-medium text-blue-800 dark:text-white">Switch View</p>
 						</div>
 					</div>
 				</div>
@@ -188,6 +185,7 @@
 
 <script>
 	import Icon from "../assets/icons/Icon";
+		import DarkModeToggle from "./DarkModeToggle";
 	export default {
 		data() {
 			return {
@@ -195,6 +193,7 @@
 			};
 		},
 			components: {
+							DarkModeToggle,
 				Icon
 			},
 		watch: {

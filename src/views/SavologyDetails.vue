@@ -149,8 +149,40 @@
 					allowed me to make some improvements
 				</p>
 
-				<div class="w-full mt-10">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308311/kingsley%20omin/savology-wireframe.png" alt="Project Savology">
+				<div class="p-8 md:p-12 lg:p-24 bg-gray-100 rounded-lg mt-10">
+					<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 py-6">
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-1.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-2.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-3.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-4.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-5.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-6.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-7.png" alt="Savology wireframe">
+						</div>
+
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-8.png" alt="Savology wireframe">
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -195,66 +227,66 @@
 
 				<div class="p-8 md:p-12 lg:p-24 bg-purple-200 rounded-lg mt-10">
 					<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 py-6">
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-1.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-1.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-2.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-2.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-3.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-3.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-4.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-4.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-5.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-5.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-6.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-6.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-7.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-7.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-8.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-8.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-9.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-9.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-10.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-10.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-11.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-11.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-12.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-12.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-13.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-13.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-14.png" alt="Project Savology">
-					</div>
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-14.png" alt="Project Savology">
+						</div>
 
-					<div>
-						<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-15.png" alt="Project Savology">
+						<div>
+							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-15.png" alt="Project Savology">
+						</div>
 					</div>
-				</div>
 				</div>
 			</div>
 

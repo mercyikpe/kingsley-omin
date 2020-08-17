@@ -5,8 +5,8 @@
 				<div class="w-full mt-8 overflow-hidden md:mt-0 md:w-1/2">
 					<div class="flex items-center h-full text-left">
 						<div class="max-w-md py-12">
-							<h2 class="text-2xl lg:text-4xl text-blue-800 font-semibold leading-none pr-4">Dryva mobile application.</h2>
-							<p class="mt-10 text-blue-600 pr-10 text-base md:text-xl">
+							<h2 class="text-2xl lg:text-4xl text-blue-800 dark:text-white font-semibold leading-none pr-4">Dryva mobile application.</h2>
+							<p class="mt-10 text-blue-600 dark:text-white pr-10 text-base md:text-xl">
 								Dryva is a professional hiring service that connects trusted drivers
 								to clients who already own vehicles but require drivers.</p>
 							<div class="mt-10">

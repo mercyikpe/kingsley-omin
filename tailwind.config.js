@@ -1,6 +1,9 @@
 module.exports = {
-	plugins: [],
+	plugins: [
+		require('tailwindcss-dark-mode')()
+	],
 	purge: {
+		whitelist: ["mode-dark"],
 		enabled: process.env.NODE_ENV === 'production',
 		content: [
 			'./public/**/*.html',
@@ -22,11 +25,11 @@ module.exports = {
 			transparent: 'transparent',
 			current: 'currentColor',
 
-			black: '#000',
+			black: '#222222',
 			white: '#fff',
 
 			gray: {
-				100: '#f7fafc',
+				100: '#D9DBE0',
 				200: '#edf2f7',
 				300: '#e2e8f0',
 				400: '#cbd5e0',
@@ -655,13 +658,19 @@ module.exports = {
 		alignSelf: ['responsive'],
 		appearance: ['responsive'],
 		backgroundAttachment: ['responsive'],
-		backgroundColor: ['responsive', 'hover', 'focus'],
+		backgroundColor: ['responsive', 'hover', 'focus', "dark",
+			"dark-hover",
+			"dark-group-hover",
+			"dark-even",
+			"dark-odd",],
 		backgroundOpacity: ['responsive', 'hover', 'focus'],
 		backgroundPosition: ['responsive'],
 		backgroundRepeat: ['responsive'],
 		backgroundSize: ['responsive'],
 		borderCollapse: ['responsive'],
-		borderColor: ['responsive', 'hover', 'focus'],
+		borderColor: ['responsive', 'hover', 'focus', "dark",
+			"dark-focus",
+			"dark-focus-within",],
 		borderOpacity: ['responsive', 'hover', 'focus'],
 		borderRadius: ['responsive'],
 		borderStyle: ['responsive'],
@@ -717,7 +726,10 @@ module.exports = {
 		strokeWidth: ['responsive'],
 		tableLayout: ['responsive'],
 		textAlign: ['responsive'],
-		textColor: ['responsive', 'hover', 'focus'],
+		textColor: ['responsive', 'hover', 'focus', "dark",
+			"dark-hover",
+			"dark-active",
+			"dark-placeholder",],
 		textOpacity: ['responsive', 'hover', 'focus'],
 		textDecoration: ['responsive', 'hover', 'focus'],
 		textTransform: ['responsive'],
