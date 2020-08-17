@@ -30,8 +30,6 @@
 
 		</main>
 
-<!--		<Hero />-->
-
 		<MyProjects />
 
 		<section class="bg-purple-100">
@@ -46,57 +44,53 @@
 			<RandomDesign />
 		</section>
 
-		<section class="container mx-auto my-32  bg-yellow-700  dark:bg-black text-white rounded-lg">
-			<div class="max-w-full py-16 lg:py-24 px-4 lg:px-8 flex relative">
-				<Icon
-						name="quote-sm"
-						class="absolute cursor-pointer hover:opacity-75 lg:hidden pt-2"
-						title="Logo"
-						width="20"
-				/>
-				<Icon
-						name="quote"
-						class="mt-4 cursor-pointer hover:opacity-75 hidden lg:flex relative"
-						title="Logo"
-						width="60"
-				/>
-				<div class="text-left w-full ml-4 lg:ml-6">
-					<h2 class="text-4xl lg:text-7xl font-semibold text-left tracking-wide leading-tight">Let’s make <br> something Great <br>Together</h2>
+		<!-- Make something great-->
+		<section class="bg-white dark:bg-black px-4 py-12 lg:py-32">
+			<div class="container mx-auto bg-yellow-700 text-white rounded-lg">
+				<div class="max-w-full py-16 lg:py-24 px-4 lg:px-8 flex relative">
+					<Icon
+							name="quote-sm"
+							class="absolute cursor-pointer hover:opacity-75 lg:hidden pt-2"
+							title="Logo"
+							width="20"
+					/>
+					<Icon
+							name="quote"
+							class="mt-4 cursor-pointer hover:opacity-75 hidden lg:flex relative"
+							title="Logo"
+							width="60"
+					/>
+					<div class="text-left w-full ml-8">
+						<h2 class="text-4xl lg:text-7xl font-semibold text-left tracking-wide leading-tight">Let’s make <br> something Great <br>Together</h2>
 
-					<a href="mailto:kingsleyomin23@gmail.com" class="mt-8 block md:inline-block text-base lg:text-2xl font-medium no-underline">
-						<span class="mr-1 lg:mr-3">Email:</span> kingsleyomin23@gmail.com
-					</a>
+						<a href="mailto:kingsleyomin23@gmail.com" class="mt-8 block md:inline-block text-base lg:text-2xl font-medium no-underline">
+							<span class="mr-1 lg:mr-3">Email:</span> kingsleyomin23@gmail.com
+						</a>
+					</div>
 				</div>
 			</div>
-
-			<MakeSomethingGreat class="hidden" />
 		</section>
 
-		<section class="bg-white">
+		<section class="bg-white dark:bg-black">
 			<Comments />
 		</section>
 
-		<Footer />
+		<footer class="bg-white dark:bg-black">
+			<Footer />
+		</footer>
 	</div>
 </template>
 
 <script>
-	// @ is an alias to /src
-	// import HelloWorld from '@/components/HelloWorld.vue'
-
-	// import Hero from "../components/Hero";
 	import MyProjects from "../components/MyProjects";
 	import SavologyProfile from "../components/Savology-profile";
 	import Dryva from "../components/Dryva";
 	import RandomDesign from "../components/Random-Design";
-	import MakeSomethingGreat from "../components/MakeSomethingGreat";
 	import Comments from "../components/Comments";
 	import Footer from "../components/Footer";
 	import Header from "../components/Header";
 	import Icon from "../assets/icons/Icon";
 	import DarkModeToggle from "../components/DarkModeToggle";
-	// import DarkModeToggle from "../components/DarkModeToggle";
-
 
 	export default {
 		name: 'Home',
@@ -105,14 +99,11 @@
 			Icon,
 			Footer,
 			Comments,
-			MakeSomethingGreat,
 			RandomDesign,
 			Dryva,
 			SavologyProfile,
 			MyProjects,
-			Header,
-			// DarkModeToggle
-			// HelloWorld
+			Header
 		}
 	}
 </script>

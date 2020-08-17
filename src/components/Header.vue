@@ -2,15 +2,20 @@
 	<div>
 		<header id="header" class="relative h-auto mx-auto overflow-x-hidden overflow-y-visible font-medium">
 			<nav class="mx-auto">
-				<div class="mx-auto border-b border-gray-200 md:border-none py-4">
+				<div class="mx-auto border-b border-gray-200 md:border-none pt-4 md:py-4">
 					<div class="flex flex-wrap items-center justify-between lg:justify-start w-full">
 
 						<div class="">
-							<router-link to="/">
-								<img class="h-10 w-16 self-center" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596667405/kingsley%20omin/favicon.png" alt="logo" />
+							<router-link to="/" class="flex items-center pr-2 no-underline">
+								<Icon
+										name="logo"
+										class="cursor-pointer hover:opacity-75"
+										title="Logo"
+								/>
+								<span class="inline-flex text-4xl font-extrabold -ml-5 -mt-4 text-blue-600 dark:text-white">O</span>
 							</router-link>
-						</div>
 
+						</div>
 
 						<!-- navbar links-->
 						<div class="hidden lg:flex flex-1 justify-between">
@@ -18,32 +23,28 @@
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'home' }"
-										active-class="border-b-2 border-yellow-600 text-yellow-600"
-										exact>
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
 									Home
 								</router-link>
 
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'works' }"
-										active-class="border-b-2 border-yellow-600 text-yellow-600"
-										exact>
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
 									Works
 								</router-link>
 
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'about' }"
-										active-class="border-b-2 border-yellow-600 text-yellow-600"
-										exact>
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
 									About Me
 								</router-link>
 
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'contact' }"
-										active-class="border-b-2 border-yellow-600 text-yellow-600"
-										exact>
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
 									Contact
 								</router-link>
 							</div>
@@ -51,45 +52,41 @@
 							<div>
 								<ul class="flex justify-end list-reset">
 									<li class="border-t md:border-none">
-										<a href="/" class="block md:inline-block px-1 no-underline">
+										<a href="/" class="block md:inline-block no-underline">
 											<Icon
 													name="dribble"
-													class="fa-2x cursor-pointer hover:opacity-75"
-													title="Logo"
-													width="30"
+													class="cursor-pointer hover:opacity-75"
+													title="Dribble"
 											/>
 										</a>
 									</li>
 
 									<li class="border-t md:border-none">
-										<a href="/" class="block md:inline-block px-1 no-underline">
+										<a href="/" class="block md:inline-block no-underline">
 											<Icon
 													name="linked-in"
-													class="fa-2x cursor-pointer hover:opacity-75"
-													title="Logo"
-													width="30"
+													class="cursor-pointer hover:opacity-75"
+													title="Linked-in"
 											/>
 										</a>
 									</li>
 
 									<li class="border-t md:border-none">
-										<a href="/" class="block md:inline-block px-1 no-underline">
+										<a href="/" class="block md:inline-block no-underline">
 											<Icon
 													name="twitter"
-													class="fa-2x cursor-pointer hover:opacity-75"
-													title="Logo"
-													width="30"
+													class="cursor-pointer hover:opacity-75"
+													title="Twitter"
 											/>
 										</a>
 									</li>
 
 									<li class="border-t md:border-none">
-										<a href="/" class="block md:inline-block pl-1 no-underline">
+										<a href="/" class="block md:inline-block no-underline">
 											<Icon
 													name="medium"
-													class="fa-2x cursor-pointer hover:opacity-75"
-													title="Logo"
-													width="30"
+													class="cursor-pointer hover:opacity-75"
+													title="Medium"
 											/>
 										</a>
 									</li>
@@ -97,14 +94,16 @@
 							</div>
 						</div>
 
-						<div class="block lg:hidden">
+						<div class="block lg:hidden" style="position:relative; right: -1.5rem; top: 1rem;">
 							<button
 									@click="openNav()"
 									id="ham"
-									class="flex items-center py-2">
-								<svg width="18" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M0 12h18v-2H0v2zm0-5h18V5H0v2zm0-7v2h18V0H0z" fill="#1D2029" />
-								</svg>
+									class="">
+								<Icon
+										name="open-nav"
+										class="cursor-pointer hover:opacity-75"
+										title="Open Menu"
+								/>
 							</button>
 						</div>
 					</div>
@@ -114,16 +113,23 @@
 			<div ref="myNav" class="flex flex-col min-h-screen overflow-hidden shadow-lg text-base font-medium bg-white dark:bg-black overlay">
 				<div class="p-8 bg-white dark:bg-black">
 					<!-- button to close the overlay -->
-					<div class="flex justify-between">
-						<router-link to="/">
-							<img class="h-8 w-12 self-center" src="https://res.cloudinary.com/mercyikpe/image/upload/v1596667405/kingsley%20omin/favicon.png" alt="logo" />
+					<div class="flex justify-between items-center">
+						<router-link to="/" class="flex items-center pr-2 no-underline">
+							<Icon
+									name="logo"
+									class="cursor-pointer hover:opacity-75"
+									title="Logo"
+							/>
+							<span class="inline-flex text-4xl font-extrabold -ml-5 -mt-4 text-blue-600 dark:text-white">O</span>
 						</router-link>
 
-						<a class="closebtn" @click="closeNav()" href="#">
-							<svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M14 1.41L12.59 0 7 5.59 1.41 0 0 1.41 5.59 7 0 12.59 1.41 14 7 8.41 12.59 14 14 12.59 8.41 7 14 1.41z" fill="#000"/>
-							</svg>
-						</a>
+						<button class="closebtn -mt-6 -mr-8 relative" @click="closeNav()">
+							<Icon
+									name="close-nav"
+									class="absolute right-0 cursor-pointer hover:opacity-75"
+									title="Close Menu"
+							/>
+						</button>
 					</div>
 
 					<!-- overlay content -->
@@ -173,13 +179,12 @@
 
 		</header>
 
-		<button
+		<div
 				v-if="isOpen"
 				@click="closeNav"
 				class="absolute w-full top-0 left-0 w-full h-screen"
-				style="background: #2A3D64; opacity: 0.5">
-
-		</button>
+				style="background: #2A3D64; opacity: 0.5;">
+		</div>
 	</div>
 </template>
 

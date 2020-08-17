@@ -9,8 +9,8 @@
 				<div class="w-full mt-8 lg:mx-4 overflow-hidden md:mt-0 md:w-1/2 order-first">
 					<div class="flex items-center h-full text-left">
 						<div class="lg:px-10 max-w-full lg:max-w-lg py-12">
-							<h2 class="text-2xl lg:text-4xl text-blue-800 dark:text-white font-semibold leading-none">Savology mobile application.</h2>
-							<p class="mt-10 text-blue-600 dark:text-white text-base md:text-xl">Savology is a mobile application that enables parents and guardians to save money specifically for their children’s university education.</p>
+							<h2 class="text-2xl lg:text-4xl text-blue-800 font-semibold leading-none">Savology mobile application.</h2>
+							<p class="mt-10 text-blue-600 text-base md:text-xl">Savology is a mobile application that enables parents and guardians to save money specifically for their children’s university education.</p>
 							<div class="mt-10">
 								<router-link
 										class="text-white sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium"

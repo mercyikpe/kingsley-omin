@@ -1,5 +1,5 @@
 <template>
-	<div class="my-8">
+	<div class="py-8">
 		<div class="container mx-auto px-6">
 			<div class="flex flex-wrap lg:flex-nowrap lg:-mx-4">
 				<div class="w-full mt-8 overflow-hidden md:mt-0 md:w-1/2">
