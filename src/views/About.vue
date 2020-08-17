@@ -101,7 +101,7 @@
 								title="Logo"
 								width="60"
 						/>
-						<div class="text-left w-full ml-4 lg:ml-6">
+						<div class="text-left w-full ml-8">
 							<h2 class="text-4xl lg:text-7xl font-semibold text-left tracking-wide leading-tight">Let’s make <br> something Great <br>Together</h2>
 
 							<a href="mailto:kingsleyomin23@gmail.com" class="mt-8 block md:inline-block text-base lg:text-2xl font-medium no-underline">

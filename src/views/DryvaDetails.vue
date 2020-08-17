@@ -4,7 +4,7 @@
 			<Header />
 		</div>
 
-		<section class="lg:pb-12 lg:pt-12">
+		<section class="pt-8 lg:pb-12 lg:pt-12">
 			<div class="items-center flex justify-center w-full px-2 md:px-8 lg-px-24 xl:px-32">
 				<img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312633/kingsley%20omin/Dryva-banner.png" alt="Project Dryva">
 			</div>

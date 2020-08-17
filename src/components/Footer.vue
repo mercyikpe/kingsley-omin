@@ -1,12 +1,12 @@
 <template>
 	<div class="pb-10 container mx-auto px-4 lg:px-0">
-		<hr style="background: #1F3564; opacity: 0.33; height: 2px;" />
+		<hr style="background: #1F3564; opacity: 0.33; height: 2px; margin-bottom: 1rem;" />
 		<div class="pt-6 text-blue-600 dark:text-white">
 
-			<div class="flex flex-wrap md:justify-between md:flex-no-wrap items-center m-auto">
-				<div class="flex flex-row items-center mx-auto mx-0 w-full md:pt-6">
+			<div class="flex flex-wrap md:justify-between md:flex-no-wrap m-auto">
+				<div class="flex flex-row mx-auto mx-0 w-full">
 
-					<a href="/" class="flex items-center pr-2 no-underline">
+					<a href="/" class="flex pt-4 pr-2 no-underline">
 						<Icon
 								name="logo"
 								class="cursor-pointer hover:opacity-75 bg-"
@@ -15,7 +15,7 @@
 						<span class="inline-flex text-4xl font-extrabold -ml-5 -mt-4 text-blue-600 dark:text-white">O</span>
 					</a>
 
-					<ul class="flex flex-row justify-between md:justify-start items-center lg:mb-0 ml-6 md:ml-16 lg:ml-24 w-full text-sm sm:text-base">
+					<ul class="flex flex-row justify-between md:justify-start mt-4 lg:mb-0 ml-6 md:ml-16 lg:ml-24 w-full text-sm sm:text-base">
 						<li class="">
 							<router-link
 									class="py-2 block md:inline-block mx-2 sm:mx-4 no-underline text-blue-600 dark:text-white hover:text-blue-700"
