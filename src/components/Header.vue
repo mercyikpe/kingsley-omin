@@ -190,7 +190,8 @@
 
 <script>
 	import Icon from "../assets/icons/Icon";
-		import DarkModeToggle from "./DarkModeToggle";
+	import DarkModeToggle from "./DarkModeToggle";
+
 	export default {
 		data() {
 			return {
