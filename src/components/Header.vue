@@ -160,6 +160,7 @@
 
 
                         <ul class="flex justify-start list-reset -mx-1">
+
                             <li class="border-t md:border-none mx-2">
                                 <a href="/" class="block md:inline-block no-underline">
                                     <svg class="hover:opacity-75" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
