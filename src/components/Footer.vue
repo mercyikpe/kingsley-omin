@@ -1,10 +1,12 @@
 <template>
-	<div class="pb-10 container mx-auto px-4 lg:px-0">
-		<hr style="background: #1F3564; opacity: 0.33; height: 2px; margin-bottom: 1rem;" />
-		<div class="pt-6 text-blue-600 dark:text-white">
+	<div class="pb-10 container mx-auto px-4 px-6 lg:px-10">
+		<div style="background: #1F3564; opacity: 0.33; height: 2px; margin-bottom: 1rem;"></div>
+
+        <div class="pt-6 text-blue-600 dark:text-white">
 
 			<div class="flex flex-wrap md:justify-between md:flex-no-wrap m-auto">
-				<div class="flex flex-row mx-auto mx-0 w-full">
+
+                <div class="flex flex-row mx-auto mx-0 sm:w-3/4 lg:w-3/4">
 
 					<a href="/" class="flex pt-4 pr-2 no-underline">
                         <svg width="58" height="37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +34,7 @@
 									:to="{ name: 'about' }"
 									active-class="text-yellow-600"
 									exact>
-								About <span class="hidden sm:inline-flex">Me</span>
+								About <span class="">Me</span>
 							</router-link>
 						</li>
 
@@ -48,25 +50,21 @@
 					</ul>
 				</div>
 
-				<div class="w-full sm:block lg:w-1/4 mt-6 md:mt-2 md:text-left pt-8 md:pt-0 text-sm sm:text-base" id="contact">
+				<div class="w-full sm:block sm:w-1/2 lg:w-1/4 mt-6 md:mt-2 md:text-left pt-8 md:pt-0 text-sm sm:text-base" id="contact">
 					<address>
-						<a href="tel:+2347033218457" class="flex items-center no-underline">
-							<Icon
-                                name="call"
-                                class="cursor-pointer hover:opacity-75 dark:text-white mt-2"
-                                title="Call"
-							/>
-							<span class="dark:text-white -mt-6 -ml-4">+234 703 321 8457</span>
+						<a href="tel:+2347033218457" class="flex items-center no-underline hover:opacity-75">
+                            <svg width="16" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="text-blue-600 dark:text-white" d="M4.413 8.002a10.1 10.1 0 004.394 4.393l1.466-1.466c.18-.18.447-.24.68-.16.747.246 1.554.38 2.38.38.367 0 .667.3.667.666v2.327c0 .367-.3.667-.667.667C7.073 14.809 2 9.735 2 3.475c0-.366.3-.666.667-.666H5c.367 0 .667.3.667.666 0 .834.133 1.634.38 2.38a.669.669 0 01-.167.68L4.413 8.002z" fill="CurrentColor" opacity=".77"/>
+                            </svg>
+							<span class="dark:text-white ml-6">+234 703 321 8457</span>
 						</a>
 					</address>
 					<address>
-						<a href="mailto:kingsleyomin23@gmail.com" class="flex items-center no-underline">
-							<Icon
-                                name="email"
-                                class="cursor-pointer hover:opacity-75 dark:text-white mt-2"
-                                title="Email"
-							/>
-							<span class="dark:text-white -mt-6 -ml-4">kingsleyomin23@gmail.com</span>
+						<a href="mailto:kingsleyomin23@gmail.com" class="flex items-center no-underline hover:opacity-75 mt-4">
+                            <svg width="16" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="text-blue-600 dark:text-white" d="M13.334 3.477H2.667c-.733 0-1.326.6-1.326 1.333l-.007 8c0 .733.6 1.333 1.333 1.333h10.667c.733 0 1.333-.6 1.333-1.333v-8c0-.733-.6-1.333-1.333-1.333zm0 2.666L8.001 9.477 2.667 6.143V4.81l5.334 3.333 5.333-3.333v1.333z" fill="CurrentColor" opacity=".77"/>
+                            </svg>
+							<span class="dark:text-white ml-6">kingsleyomin23@gmail.com</span>
 						</a>
 					</address>
 				</div>
@@ -78,15 +76,14 @@
 			<div class="flex pb-5 m-auto md:pt-5 flex-wrap lg:justify-between items-center">
 
 				<div class="w-full lg:w-3/4 mt-2 text-center lg:text-left order-last lg:order-first">
-					<p class="text-sm sm:text-base mt-4 lg:pt-0 text-blue-600 dark:text-white ">
+					<p class="text-base mt-4 lg:pt-0 copyright dark:text-white">
 						© 2020 Kingsley Omin. All Rights Reserved.
 					</p>
 				</div>
 
-				<div class="w-full lg:w-1/5 pb-6 md:pb-0">
+				<div class="w-full lg:w-1/4 pb-6 md:pb-0">
 					<div class="md:flex-auto mt-2 flex-row flex justify-center lg:justify-start -mx-1">
-
-						<ul class="flex justify-start md:justify-end list-reset m-0 w-full md:w-auto">
+						<ul class="flex justify-start md:justify-end list-reset m-0 w-full md:w-auto mt-6">
 							<li class="mx-1">
                                 <a href="/" class="block md:inline-block no-underline">
                                     <svg class="hover:opacity-75" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -131,12 +128,9 @@
 </template>
 
 <script>
-	import Icon from "../assets/icons/Icon";
-
 	export default {
 		name: "Footer",
 		components: {
-			Icon
 		}
 	};
 </script>
@@ -148,4 +142,8 @@
 		letter-spacing: -0.08px;
 		font-style: normal;
 	}
+    .copyright {
+        color: #1F3564;
+        opacity: 0.6;
+    }
 </style>

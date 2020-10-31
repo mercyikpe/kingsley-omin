@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<header id="header" class="relative h-auto mx-auto overflow-x-hidden overflow-y-visible font-medium">
-			<nav class="mx-auto">
+			<nav class="mx-auto px-2 sm:px-6 md:px-10">
 				<div class="mx-auto border-b border-gray-200 md:border-none pt-4 md:py-4 pb-2">
 					<div class="flex flex-wrap items-center justify-between lg:justify-start w-full">
 

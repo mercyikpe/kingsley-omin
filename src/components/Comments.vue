@@ -1,6 +1,6 @@
 <template>
-	<div class="pt-32">
-		<div class="max-w-6xl mx-auto py-8 lg:py-24 px-4 md:px-8">
+	<div class="xl:pt-32">
+		<div class="max-w-6xl mx-auto py-8 lg:py-24 px-4 sm:px-6 md:px-8">
 			<h3 class="text-2xl lg:text-4xl font-semibold text-center text-blue-700 dark:text-white">Comment from teammates</h3>
 
 			<div class="comments text-blue-800 dark:text-white">
@@ -43,7 +43,7 @@
 				<div class="carousel-inner relative overflow-hidden w-full">
 					<!--Slide 1-->
 					<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-					<div class="carousel-item absolute opacity-0" style="height:60vh;">
+					<div class="carousel-item absolute opacity-0" style="height:45vh;">
 						<div class="block h-full w-full text-center">
 							<p class="opacity-75 text-sm font-medium italic text-center lg:text-left tracking-wide comment-single">
 								Kingsley is a clear communicator, problem-solver and a critical thinker that delivers
@@ -59,7 +59,7 @@
 
 					<!--Slide 2-->
 					<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-					<div class="carousel-item absolute opacity-0" style="height:75vh;">
+					<div class="carousel-item absolute opacity-0" style="height:55vh;">
 						<div class="block h-full w-full text-5xl text-center">
 							<p class="opacity-75 text-sm font-medium italic text-center lg:text-left tracking-wide comment-single">
 								Kingsley is an excellent team player with a keen eye for designing user centric products.
