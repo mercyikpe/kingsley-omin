@@ -23,28 +23,28 @@
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'home' }"
-										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600 dark:text-yellow-600">
 									Home
 								</router-link>
 
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'works' }"
-										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600 dark:text-yellow-600">
 									Works
 								</router-link>
 
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'about' }"
-										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600 dark:text-yellow-600">
 									About Me
 								</router-link>
 
 								<router-link
 										class="inline-block mx-4 no-underline text-blue-600 hover:text-blue-700 dark:text-white font-medium"
 										:to="{ name: 'contact' }"
-										exact-active-class="border-b-2 border-yellow-600 text-yellow-600">
+										exact-active-class="border-b-2 border-yellow-600 text-yellow-600 dark:text-yellow-600">
 									Contact
 								</router-link>
 							</div>
@@ -137,7 +137,7 @@
 						<router-link
 								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'home' }"
-								active-class="text-yellow-600"
+								active-class="text-yellow-600 dark:text-yellow-600"
 								exact>
 							Home
 						</router-link>
@@ -145,7 +145,7 @@
 						<router-link
 								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'works' }"
-								active-class="text-yellow-600"
+								active-class="text-yellow-600 dark:text-yellow-600"
 								exact>
 							Works
 						</router-link>
@@ -153,7 +153,7 @@
 						<router-link
 								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'about' }"
-								active-class="text-yellow-600"
+								active-class="text-yellow-600 dark:text-yellow-600"
 								exact>
 							About Me
 						</router-link>
@@ -161,7 +161,7 @@
 						<router-link
 								class="my-10 inline-block text-blue-600 dark:text-white hover:text-blue-700 font-medium"
 								:to="{ name: 'contact' }"
-								active-class="text-yellow-600"
+								active-class="text-yellow-600 dark:text-yellow-600"
 								exact>
 							Contact
 						</router-link>
