@@ -16,6 +16,7 @@ module.exports = {
 	separator: ':',
 	theme: {
 		screens: {
+			xs: '411px',
 			sm: '640px',
 			md: '768px',
 			lg: '1024px',
@@ -25,7 +26,7 @@ module.exports = {
 			transparent: 'transparent',
 			current: 'currentColor',
 
-			black: '#222222',
+			black: '#1A1A1A',
 			white: '#fff',
 
 			gray: {
@@ -105,6 +106,7 @@ module.exports = {
 				700: '#0C377D',
 				800: '#2A3D64',
 				900: '#2a4365',
+				1000: '#0C377D',
 			},
 			indigo: {
 				100: '#ebf4ff',
@@ -275,6 +277,8 @@ module.exports = {
 			...theme('spacing'),
 			full: '100%',
 			screen: '100vh',
+			smallScreen: '75vh',
+			small: '40vh',
 		}),
 		inset: {
 			'0': '0',

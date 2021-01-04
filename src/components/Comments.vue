@@ -1,13 +1,24 @@
 <template>
-	<div class="xl:pt-32">
-		<div class="max-w-6xl mx-auto py-8 lg:py-24 px-4 sm:px-6 md:px-8">
-			<h3 class="text-2xl lg:text-4xl font-semibold text-center text-blue-700 dark:text-white">Comment from teammates</h3>
-
+	<div class="">
+		<div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto py-8 lg:py-24 px-4 sm:px-6 md:px-8">
+			<h3 class="text-2xl lg:text-4xl font-semibold text-center text-blue-700 dark:text-white">Comments from teammates</h3>
+            <Icon
+                name="quote-sm"
+                class="absolute cursor-pointer hover:opacity-75 lg:hidden pt-4"
+                title="Logo"
+                width="20"
+            />
+            <Icon
+                name="quote"
+                class="mt-4 cursor-pointer hover:opacity-75 hidden lg:flex relative"
+                title="Logo"
+                width="60"
+            />
 			<div class="comments text-blue-800 dark:text-white">
-				<div class="grid grid-cols-1 md:grid-cols-2 hidden md:flex">
+				<div class="grid grid-cols-1 lg:grid-cols-2 hidden lg:flex">
 					<div class="max-w-xl m-4">
 						<div class="flex flex-col min-h-full">
-							<div class="lg:px-12 pt-10 flex-grow">
+							<div class="lg:px-12 pt-4 flex-grow">
 								<p class="opacity-75 text-sm font-medium italic text-center lg:text-left tracking-wide comment-single">
 									Kingsley is a clear communicator, problem-solver and a critical thinker that delivers
 									exceptional quality of work in time. It is always a pleasure to work with and we look forward
@@ -22,7 +33,7 @@
 					</div>
 					<div class="max-w-xl m-4">
 						<div class="flex flex-col min-h-full">
-							<div class="lg:px-12 pt-10 flex-grow">
+							<div class="lg:px-12 pt-4 flex-grow">
 								<p class="opacity-75 text-sm font-medium italic text-center lg:text-left tracking-wide comment-single">
 									Kingsley is an excellent team player with a keen eye for designing user centric products.
 									He understands and sees the larger picture of what the prduct should look, feel and achieve.
@@ -39,11 +50,11 @@
 				</div>
 			</div>
 
-			<div class="carousel relative mt-6 text-blue-800 dark:text-white md:hidden">
+			<div class="carousel relative mt-8 text-blue-800 dark:text-white lg:hidden">
 				<div class="carousel-inner relative overflow-hidden w-full">
 					<!--Slide 1-->
 					<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-					<div class="carousel-item absolute opacity-0" style="height:45vh;">
+					<div class="carousel-item absolute opacity-0 h-smallScreen xs:h-small sm:h-56 md:h-64">
 						<div class="block h-full w-full text-center">
 							<p class="opacity-75 text-sm font-medium italic text-center lg:text-left tracking-wide comment-single">
 								Kingsley is a clear communicator, problem-solver and a critical thinker that delivers
@@ -59,7 +70,7 @@
 
 					<!--Slide 2-->
 					<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-					<div class="carousel-item absolute opacity-0" style="height:55vh;">
+					<div class="carousel-item absolute opacity-0 h-smallScreen xs:h-small sm:h-56 md:h-64">
 						<div class="block h-full w-full text-5xl text-center">
 							<p class="opacity-75 text-sm font-medium italic text-center lg:text-left tracking-wide comment-single">
 								Kingsley is an excellent team player with a keen eye for designing user centric products.
@@ -91,9 +102,11 @@
 </template>
 
 <script>
-	export default {
-		name: "Comments"
-	}
+	import Icon from "@/assets/icons/Icon";
+    export default {
+		name: "Comments",
+        components: {Icon}
+    }
 </script>
 
 <style scoped>
@@ -106,7 +119,6 @@
 	.comment-single {
 		line-height: 26px;
 	}
-
 	.carousel-open:checked + .carousel-item {
 		position: static;
 		opacity: 100;
@@ -126,4 +138,25 @@
 		text-align: center;
 		z-index: 10;
 	}
+
+    /* Extra small devices (phones, 600px and down) */
+
+    /*@media only screen and (max-width: 440px) {*/
+    /*    .carousel-item-height {*/
+    /*        height: 75vh;*/
+    /*        max-height: 75vh;*/
+    /*    }*/
+    /*}*/
+    /*@media only screen and (max-width: 640px) {*/
+    /*    .carousel-item-height {*/
+    /*        height: 40vh !important;*/
+    /*        max-height: 40vh !important;*/
+    /*    }*/
+    /*}*/
+    /*@media only screen and (max-width: 1023px) {*/
+    /*    .carousel-item-height {*/
+    /*        height: 25vh;*/
+    /*        max-height: 25vh;*/
+    /*    }*/
+    /*}*/
 </style>

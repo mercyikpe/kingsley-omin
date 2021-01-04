@@ -36,4 +36,17 @@
     font-weight: 400;
     src: url('../fonts/Graphik/GraphikRegular.otf') format('opentype');
 }
+.yellowbutton {
+    background: #FFB22A;
+    border: 1px solid #FFB22A;
+    border-radius: 6px;
+    padding: 15px 50px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
 @tailwind utilities;

@@ -1,6 +1,7 @@
 <template>
-	<div class="pb-10 container mx-auto px-4 px-6 lg:px-10">
-		<div style="background: #1F3564; opacity: 0.33; height: 2px; margin-bottom: 1rem;"></div>
+	<div class="pb-10 px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto mx-auto">
+
+        <div class="bg-blue-600 dark:bg-white" style="opacity: 0.33; height: 1px; margin-bottom: 1rem;"></div>
 
         <div class="pt-6 text-blue-600 dark:text-white">
 
@@ -34,7 +35,7 @@
 									:to="{ name: 'about' }"
 									active-class="text-yellow-600"
 									exact>
-								About <span class="">Me</span>
+								About <span class="hidden sm:inline-flex">Me</span>
 							</router-link>
 						</li>
 
@@ -76,7 +77,7 @@
 			<div class="flex pb-5 m-auto md:pt-5 flex-wrap lg:justify-between items-center">
 
 				<div class="w-full lg:w-3/4 mt-2 text-center lg:text-left order-last lg:order-first">
-					<p class="text-base mt-4 lg:pt-0 copyright dark:text-white">
+					<p class="text-base mt-4 lg:pt-0 copyright text-blue-600 dark:text-white">
 						© 2020 Kingsley Omin. All Rights Reserved.
 					</p>
 				</div>
@@ -144,6 +145,6 @@
 	}
     .copyright {
         color: #1F3564;
-        opacity: 0.6;
+        /*opacity: 0.6;*/
     }
 </style>

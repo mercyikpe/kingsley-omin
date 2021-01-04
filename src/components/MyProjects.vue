@@ -1,7 +1,7 @@
 <template>
-	<div class="py-12 lg:py-16 text-center dark:bg-black">
-		<h3 class="text-blue-700 dark:text-white text-4xl lg:text-5xl font-bold">My Projects</h3>
-		<p class="text-xl text-blue-800 dark:text-white mt-3 px-8 lg:px-0">Here are some of my projects with case study</p>
+	<div class="py-12 lg:pt-24 pb-16 text-center dark:bg-black">
+		<h3 class="text-blue-700 dark:text-white text-2xl md:text-3xl lg:text-4xl font-semibold">My Projects</h3>
+		<p class="text-base sm:text-lg lg:text-xl text-blue-800 dark:text-white mt-3 px-4 lg:px-0">Here are some of my projects with case study</p>
 	</div>
 </template>
 

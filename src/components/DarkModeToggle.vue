@@ -4,7 +4,7 @@
 				@click="toggleDarkMode"
 				v-show="!isDarkMode"
 				name="light-switch"
-				class="cursor-pointer hover:opacity-75 pb-8 pt-2"
+				class="cursor-pointer hover:opacity-75"
 				title="switch"
 				width="30"
 		/>
@@ -12,7 +12,7 @@
 				@click="toggleDarkMode"
 				v-show="isDarkMode"
 				name="dark-switch"
-				class="cursor-pointer hover:opacity-75 pb-8 pt-2"
+				class="cursor-pointer hover:opacity-75"
 				title="switch"
 				width="30"
 		/>
