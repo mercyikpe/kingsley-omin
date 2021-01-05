@@ -6,7 +6,7 @@
 					<div class="flex flex-wrap items-center justify-between lg:justify-start w-full">
 
 						<div class="">
-							<router-link to="/" class="flex items-center pr-2 no-underline hover:opacity-75">
+							<router-link to="/" class="flex items-center pr-2 no-underline">
                                 <svg width="58" height="37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 .51A.51.51 0 01.51 0H8.68a.51.51 0 01.51.51v27.057a.51.51 0 01-.51.51H.51a.51.51 0 01-.511-.51V.511z" fill="#FFB22A"/>
                                     <path d="M8.64 14.293a.51.51 0 01.07-.718l6.31-5.186a.51.51 0 01.72.072l22.38 27.462a.51.51 0 01-.396.834H27.298a.51.51 0 01-.394-.187L8.64 14.293z" fill="#FFB22A"/>
