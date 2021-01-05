@@ -4,13 +4,13 @@
 			<h3 class="text-2xl lg:text-4xl font-semibold text-center text-blue-700 dark:text-white">Comments from teammates</h3>
             <Icon
                 name="quote-sm"
-                class="absolute cursor-pointer hover:opacity-75 lg:hidden pt-4"
+                class="absolute lg:hidden pt-4"
                 title="Logo"
                 width="20"
             />
             <Icon
                 name="quote"
-                class="mt-4 cursor-pointer hover:opacity-75 hidden lg:flex relative"
+                class="mt-4 hidden lg:flex relative"
                 title="Logo"
                 width="60"
             />
