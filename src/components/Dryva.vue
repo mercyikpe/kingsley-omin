@@ -1,6 +1,6 @@
 <template>
 	<div class="md:py-8">
-		<div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl">
+		<div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto">
 			<div class="flex flex-wrap lg:flex-nowrap lg:-mx-4">
 				<div class="w-full mt-8 overflow-hidden md:mt-0 md:w-1/2">
 					<div class="flex items-center h-full text-left">

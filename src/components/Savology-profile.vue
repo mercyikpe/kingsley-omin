@@ -1,6 +1,6 @@
 <template>
 	<div class="">
-		<div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl">
+		<div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto">
 			<div class="flex flex-wrap lg:flex-no-wrap lg:-mx-4">
 				<div class="w-full md:w-1/2 pt-6 md:pt-12 lg:pt-32 order-last lg:order-first">
 					<img class="" src="../assets/images/savology.png" alt="savology">
