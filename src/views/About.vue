@@ -2,40 +2,33 @@
 	<div class="min-h-screen flex flex-col font-sans">
 		<div class="flex-grow">
 			<main class="bg-white dark:bg-black relative font-Graphik">
-				<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
+                <div class="z-40 lg:pt-6">
+                    <!-- Nav Bar-->
+                    <Header />
+                    <!-- Nav Bar-->
+                </div>
 
-					<!-- Nav Bar-->
-					<Header />
-					<!-- Nav Bar-->
-				</div>
-				<section class="py-6">
-					<div class="container px-4 lg:px-0 mx-auto flex flex-col md:flex-row lg:justify-between items-center relative">
-						<div class="w-full xl:w-3/6 flex flex-col items-start py-8 text-center lg:text-left">
-							<h1 class="text-4xl md:text-5xl lg:text-9xl text-blue-700 dark:text-white font-semibold leading-none mx-auto lg:ml-0">
-								Hi there,<br/>nice to <br/> meet you.
-							</h1>
-						</div>
+                <section class="py-6">
+                    <div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto flex flex-col md:flex-row lg:justify-between items-center relative">
+                        <div class="w-full xl:w-3/6 flex flex-col items-start text-center lg:text-left">
+                            <h1 class="text-4xl md:text-5xl lg:text-9xl text-blue-700 dark:text-white font-bold leading-none mx-auto lg:ml-0">Hi there,<br/>nice to <br/> meet you.</h1>
+                        </div>
 
-						<div class="items-center flex justify-center md:justify-end w-full xl:w-4/6 lg:py-20">
-							<img class="h-auto lg:w-4/5" src="../assets/images/about-hero.png" alt="Kingsley Omin">
-<!--							<img class="h-auto lg:w-4/5" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597306363/kingsley%20omin/KingsleyOmin.png" alt="Kingsley Omin">-->
-						</div>
-					</div>
-					<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
-						<DarkModeToggle />
-						<p class="transform -rotate-90 mt-4 font-medium text-blue-800 dark:text-white -ml-8" @click="alert">Switch View</p>
-					</div>
-				</section>
+                        <div class="items-center flex justify-center md:justify-end sm:w-4/6 pt-12">
+                            <img class="h-auto sm:w-4/5" style="width: 477px; height: 497px" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597306363/kingsley%20omin/KingsleyOmin.png" alt="Kingsley Omin">
+                        </div>
+                    </div>
+                </section>
 
 			</main>
 
 			<!-- Works counter-->
-			<section class="py-24 px-4 bg-white dark:bg-black">
+			<section class="pt-12 lg:pt-24 pb-8 lg:pb-12 px-4 bg-white dark:bg-black">
 				<WorkCount />
 			</section>
 
 			<section id="about-paragraph" class="bg-white dark:bg-black py-4">
-				<div class="container mx-auto px-4 text-blue-600 dark:text-white text-base md:text-xl">
+				<div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto text-blue-600 dark:text-white text-base md:text-xl">
 					<p class="my-6 md:my-8">
 						Hello, I’m Kingsley Omin a Product Designer passionate about solving problems using the user-centred design approach to
 						simplifying the solution that also accommodates new users. I’m currently based in Lagos, Nigeria. My design process usually
@@ -78,40 +71,30 @@
 					</div>
 
 					<div class="my-12">
-						<a href="#" class="text-white uppercase sm:font-xl uppercase py-3 px-6 sm:py-3 sm:px-8 rounded shadow-lg bg-yellow-600 mt-8 font-medium mx-auto lg:ml-0">
-							My Resume
-						</a>
+                        <router-link
+                            class="uppercase yellowbutton mt-8"
+                            :to="{ name: 'contact' }">
+                            My Resume
+                        </router-link>
 					</div>
 				</div>
 			</section>
 
 
 			<!-- Make something great-->
-			<section class="bg-white dark:bg-black px-4 py-20 md:py-40">
-				<div class="container mx-auto bg-purple-200 text-blue-600 rounded-lg">
-					<div class="max-w-full py-16 lg:py-24 px-4 lg:px-8 flex relative">
-						<Icon
-								name="quote-sm"
-								class="absolute cursor-pointer hover:opacity-75 lg:hidden pt-2"
-								title="Logo"
-								width="20"
-						/>
-						<Icon
-								name="quote"
-								class="mt-4 cursor-pointer hover:opacity-75 hidden lg:flex relative"
-								title="Logo"
-								width="60"
-						/>
-						<div class="text-left w-full ml-8">
-							<h2 class="text-4xl lg:text-7xl font-semibold text-left tracking-wide leading-tight">Let’s make <br> something Great <br>Together</h2>
+            <section class="bg-white dark:bg-black pt-12 lg:pt-24 pb-8 lg:pb-24 ">
+                <div class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto bg-purple-200 text-blue-600 rounded-lg">
+                    <div class="max-w-full py-16 lg:py-24 px-8 lg:px-20 flex relative">
+                        <div class="text-left w-full ml-8">
+                            <h2 class="text-4xl lg:text-7xl font-semibold text-left tracking-wide leading-tight">Let’s make <br> something Great <br>Together</h2>
 
-							<a href="mailto:kingsleyomin23@gmail.com" class="mt-8 block md:inline-block text-base lg:text-2xl font-medium no-underline">
-								<span class="mr-1 lg:mr-3">Email:</span> kingsleyomin23@gmail.com
-							</a>
-						</div>
-					</div>
-				</div>
-			</section>
+                            <a href="mailto:kingsleyomin23@gmail.com" class="mt-8 block md:inline-block text-base lg:text-2xl font-medium no-underline">
+                                <span class="mr-1 lg:mr-3">Email:</span> kingsleyomin23@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 		</div>
 
@@ -126,11 +109,10 @@
 	import Footer from "../components/Footer";
 	import WorkCount from "../components/WorkCount";
 	import Icon from "../assets/icons/Icon";
-	import DarkModeToggle from "../components/DarkModeToggle";
 
 	export default {
 		name: "About",
-		components: {DarkModeToggle, Icon, WorkCount, Header, Footer}
+		components: {Icon, WorkCount, Header, Footer}
 	}
 </script>
 
@@ -142,4 +124,7 @@
 		letter-spacing: -0.08px;
 		font-style: normal;
 	}
+    p {
+        line-height: 44px;
+    }
 </style>

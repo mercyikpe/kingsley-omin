@@ -19,7 +19,7 @@
                     </div>
 
                     <div class="items-center flex justify-center md:justify-end sm:w-4/6 pt-12">
-                        <img class="h-auto sm:w-4/5" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597306363/kingsley%20omin/KingsleyOmin.png" alt="Kingsley Omin">
+                        <img class="h-auto sm:w-4/5" style="width: 477px; height: 497px" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597306363/kingsley%20omin/KingsleyOmin.png" alt="Kingsley Omin">
                     </div>
                 </div>
             </section>

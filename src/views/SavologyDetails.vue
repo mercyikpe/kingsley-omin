@@ -1,29 +1,26 @@
 <template>
 	<main class="bg-white dark:bg-black relative font-Graphik">
-		<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
-			<Header />
-		</div>
+        <div class="z-40 lg:pt-6">
+            <!-- Nav Bar-->
+            <Header />
+            <!-- Nav Bar-->
+        </div>
 
 		<section class="pt-8 lg:pb-12 lg:pt-12">
-			<div class="items-center flex justify-center w-full px-2 md:px-8 lg-px-24 xl:px-32">
+			<div class="items-center flex justify-center w-full px-2 md:px-8 lg:px-24">
 				<img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308307/kingsley%20omin/SAVOLOGY-banner.png" alt="Project Savology">
-			</div>
-
-			<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
-				<DarkModeToggle />
-				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 dark:text-white -ml-8" @click="alert">Switch View</p>
 			</div>
 		</section>
 
-		<section id="savology-paragraph" class="container mx-auto text-blue-600 dark:text-white dark:text-white text-base px-4">
-			<div class="mt-12 md:mt-20">
+		<section id="savology-paragraph" class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto text-blue-600 dark:text-white dark:text-white text-base">
+			<div class="mt-12 md:mt-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Overview</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					Savology is a mobile application that enables parents and guardians to save money specifically for their children’s university education.
 				</p>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">The Challenge</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The costs of higher education all over the world continue to rise while the possibilities of affording this education continue to
@@ -38,34 +35,34 @@
 				</p>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Goals & Objectives</h3>
 				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
 						<Icon
-								name="bullet"
-								class="align-bottom mr-2 md:mr-4"
-								title="bullet"
+                            name="bullet"
+                            class="align-bottom mr-2 md:mr-4"
+                            title="bullet"
 						/>
 						To help parent plan for their children’s university education.</li>
 					<li class="my-4">
 						<Icon
-								name="bullet"
-								class="align-bottom mr-2 md:mr-4"
-								title="bullet"
+                            name="bullet"
+                            class="align-bottom mr-2 md:mr-4"
+                            title="bullet"
 						/>
 						To re-install confidence and ease some of the problems that comes with parenting.</li>
 					<li>
 						<Icon
-								name="bullet"
-								class="align-bottom mr-2 md:mr-4"
-								title="bullet"
+                            name="bullet"
+                            class="align-bottom mr-2 md:mr-4"
+                            title="bullet"
 						/>
 						To achieve a product with minimal UI designs, easy navigation and fewer user actions.</li>
 				</ul>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Research</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					With a better understanding of the problem, I began my research with a competitive analysis to understand the landscape
@@ -76,40 +73,39 @@
 				</p>
 
 				<h4 class="text-xl font-semibold text-blue-600 dark:text-white dark:text-white mt-6">Some of the research findings</h4>
-				<ul class="mt-4 md:mt-8 lg:mt-10">
-					<li>
+				<ul class="mt-4 md:mt-8">
+					<li class="leading-8">
 						<Icon
-								name="bullet"
-								class="align-bottom mr-2 md:mr-4"
-								title="bullet"
+                            name="bullet"
+                            class="align-bottom mr-2 md:mr-4"
+                            title="bullet"
 						/>
 						People are willing to spend a considerable amount of money on their children’s university education due to perceptions
 						of its value, however, most persons simply cannot afford to do so.
 					</li>
-					<li class="my-4">
+					<li class="my-4 leading-8">
 						<Icon
-								name="bullet"
-								class="align-bottom mr-2 md:mr-4"
-								title="bullet"
+                            name="bullet"
+                            class="align-bottom mr-2 md:mr-4"
+                            title="bullet"
 						/>
 						They welcome the idea of having an application that helps them save but are more concerned about the stability and
 						safety of their money due to past experiences. As such they require an assurance of security as well as restrictions to
 						help them avoid the temptation of withdrawing funds for something else.
 					</li>
-					<li>
+					<li class="leading-8">
 						<Icon
-								name="bullet"
-								class="align-bottom mr-2 md:mr-4"
-								title="bullet"
+                            name="bullet"
+                            class="align-bottom mr-2 md:mr-4"
+                            title="bullet"
 						/>
 						Rather than just saving the money and cashing-out the same amount people prefer to invest and get interested in return.
 						The ability to save and invest should be automated.
 					</li>
 				</ul>
-
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">User Persona</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					These research questions gave me better insight into my intended audience and helped me to identify their pain points.
@@ -117,11 +113,11 @@
 				</p>
 
 				<div class="w-full mt-10">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308306/kingsley%20omin/savology-user-persona.png" alt="Project Savology">
+					<img class="h-auto w-full" src="../assets/images/savology-user-personae.png" alt="Project Savology">
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">User Flow</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The user flow diagram gives an insight into how things are organized inside of the application and it also
@@ -129,11 +125,11 @@
 				</p>
 
 				<div class="w-full mt-10">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308306/kingsley%20omin/savology-userflow.png" alt="Project Savology">
+					<img class="h-auto w-full" src="../assets/images/savology-user-flow.png" alt="Project Savology">
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Wire Frames</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					I usually get attached to a single idea while sketching and creating a wireframe, but for this project,
@@ -147,41 +143,41 @@
 				<div class="p-8 md:p-12 lg:p-24 bg-gray-100 rounded-lg mt-10">
 					<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 py-6">
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-1.png" alt="Savology wireframe">
+							<img class="h-auto w-full" src="../assets/images/savology-wf-1.png" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-2.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-2.png" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-3.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-3.jpg" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-4.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-4.jpg" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-5.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-5.jpg" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-6.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-6.jpg" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-7.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-7.jpg" alt="Savology wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597394554/kingsley%20omin/savology-wireframe/savology-wf-8.png" alt="Savology wireframe">
+                            <img class="h-auto w-full" src="../assets/images/savology-wf-8.jpg" alt="Savology wireframe">
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Visual Design</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					With my potential users being guardians, parents and intending parents I wanted a design that made them feel good and relaxed.
@@ -190,11 +186,11 @@
 				</p>
 
 				<div class="w-full mt-8">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308306/kingsley%20omin/savology-visual-design.png" alt="Project Savology">
+					<img class="h-auto w-full" src="../assets/images/savology-visual-design.png" alt="savology-visual-design">
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white dark:text-white">Home Sreen</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The home screen of the app is the first screen a user sees after logging in. This screen contains all the primary actions
@@ -223,63 +219,63 @@
 				<div class="p-8 md:p-12 lg:p-24 bg-purple-200 rounded-lg mt-10">
 					<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 py-6">
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-1.png" alt="Project Savology">
+							<img class="h-auto w-full" src="../assets/images/savology-screen-1.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-2.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-2.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-3.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-3.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-4.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-4.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-5.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-5.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-6.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-6.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-7.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-7.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-8.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-8.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-9.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-9.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-10.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-10.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-11.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-11.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-12.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-12.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-13.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-13.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-14.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-14.png" alt="Project Savology">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597308304/kingsley%20omin/savology-15.png" alt="Project Savology">
+                            <img class="h-auto w-full" src="../assets/images/savology-screen-15.png" alt="Project Savology">
 						</div>
 					</div>
 				</div>
@@ -287,9 +283,8 @@
 
 
 			<div class="my-16">
-				<a
-						href="https://www.figma.com/proto/fxgWKYHKuPLPIc8uh1s1Dg/SAVOLOGY?node-id=196%3A11118&viewport=579%2C421%2C0.03894153609871864&scaling=min-zoom"
-						class="underline sm:font-xl text-yellow-600 mt-8 font-medium">
+				<a href="https://www.figma.com/proto/fxgWKYHKuPLPIc8uh1s1Dg/SAVOLOGY?node-id=196%3A11118&viewport=579%2C421%2C0.03894153609871864&scaling=min-zoom"
+                   class="underline sm:font-xl text-yellow-600 mt-8 font-medium">
 					Click to view prototype
 				</a>
 			</div>
@@ -302,15 +297,17 @@
 <script>
 	import Header from "../components/Header";
 	import Footer from "../components/Footer";
-	import DarkModeToggle from "../components/DarkModeToggle";
-		import Icon from "../assets/icons/Icon";
+    import Icon from "../assets/icons/Icon";
 
 	export default {
 		name: "savology",
-		components: {Icon, DarkModeToggle, Footer, Header}
+		components: {Icon, Footer, Header}
 	}
 </script>
 
 <style scoped>
 	.list-disc {}
+    p {
+        line-height: 44px;
+    }
 </style>

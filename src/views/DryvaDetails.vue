@@ -1,28 +1,27 @@
 <template>
 	<main class="bg-white dark:bg-black relative font-Graphik">
-		<div class="container mx-auto px-4 lg:px-0 relative z-40 lg:pt-6 relative">
-			<Header />
-		</div>
+        <div class="z-40 lg:pt-6">
+            <!-- Nav Bar-->
+            <Header />
+            <!-- Nav Bar-->
+        </div>
 
-		<section class="pt-8 lg:pb-12 lg:pt-12">
-			<div class="items-center flex justify-center w-full px-2 md:px-8 lg-px-24 xl:px-32">
-				<img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312633/kingsley%20omin/Dryva-banner.png" alt="Project Dryva">
-			</div>
+        <section class="pt-8 lg:pb-12 lg:pt-12">
+            <div class="items-center flex justify-center w-full px-2 md:px-8 lg:px-24">
+                <img class="h-auto" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312633/kingsley%20omin/Dryva-banner.png" alt="Project Dryva">
+            </div>
+        </section>
 
-			<div class="absolute right-0 top-0 mt-24 pt-24 mr-12 hidden lg:block">
-				<DarkModeToggle />
-				<p class="transform -rotate-90 mt-4 font-medium text-blue-800 dark:text-white -ml-8" @click="alert">Switch View</p>
-			</div>
-		</section>
 
-		<section id="savology-paragraph" class="container mx-auto text-blue-600 dark:text-white text-base px-4">
-			<div class="mt-12 md:mt-20">
+		<section id="savology-paragraph" class="px-4 sm:px-0 md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto  text-blue-600 dark:text-white text-base">
+			<div class="mt-12 md:mt-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Overview</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
-					Dryva is a professional hiring service that connects trusted drivers to clients who already own vehicles but require drivers.				</p>
+					Dryva is a professional hiring service that connects trusted drivers to clients who already own vehicles but require drivers.
+                </p>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">The Challenge</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					For a city like Lagos, ride-hailing apps are essential, they help to ease the stresses of daily commutes and provide an alternative to public transportation. However, current ride-hailing operations inadvertently leave the needs of one core demographic unmet. This underserved market is made up of individual car owners who prefer to occasionally be driven by a driver — as a means of coping with the stressful lifestyle associated with large urban cities, such as traffic congestion, and long commute times.
@@ -31,7 +30,7 @@
 				</p>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Goals & Objectives</h3>
 				<ul class="mt-4 md:mt-8 lg:mt-10">
 					<li>
@@ -61,14 +60,14 @@
 				</ul>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Team</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The design team consisted of myself and @namnsoukpanah. We had three weeks to create the designs that will help our users reach this goal.
 				</p>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Research</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					With a better understanding of the product, we began the research with the assumption that the user base would be mostly the middle-class individuals with jobs and other life activities that required them to commute often. After developing a research plan that included brainstorming with the team, creating and deploying a survey and conducting a series of interviews, we set out to conduct the user research. We started by interviewing some friends who were car owners.				</p>
@@ -123,29 +122,29 @@
 
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">User Persona</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					Based on the findings from the research and interviews, we were able to create a user persona to have a more critical understanding of the user.
 				</p>
 
 				<div class="w-full mt-10">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312623/kingsley%20omin/Dryva-persona.png" alt="Project Dryva">
+					<img class="h-auto w-full" src="../assets/images/dryva/dryva-user-persona.png" alt="Project Dryva User persona">
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">User Flow</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					From all the information gathered, we created a user flow for the product. We aimed to help define the likely steps a user might take through various pages and actions on the app to complete their goal. Not only did this help us minimize user actions, it also helped us to deliver a better experience in the most effective way possible.
 				</p>
 
 				<div class="w-full mt-10">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312623/kingsley%20omin/Dryva-userflow.png" alt="Project Dryva">
+					<img class="h-auto w-full" src="../assets/images/dryva/dryva-user-flow.png" alt="Project Dryva user flow">
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Wire Frames</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					After brainstorming on all the outlined app features, wireframes were created to give a clearer understanding of the project structure to both the client and the development team, and likewise to create room for any adjustments. A wireframe is a visual representation of a user interface that shows the skeletal framework of the app. It is a faster method of planning the information architecture of the app transition.
@@ -154,43 +153,43 @@
 				<div class="p-8 md:p-12 lg:p-24 bg-gray-100 rounded-lg mt-10">
 					<div class="grid grid-cols-2 md:grid-cols-5 gap-8 py-6">
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-1.png" alt="Dryva wireframe">
+							<img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-1.jpg" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-2.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-2.jpg" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-3.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-3.jpg" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-4.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-4.jpg" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-5.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-5.jpg" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-6.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-6.png" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-7.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-7.png" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-8.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-8.png" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-9.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-9.png" alt="Dryva wireframe">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597395043/kingsley%20omin/dryva-wireframe/dryva-wf-10.png" alt="Dryva wireframe">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-wf-10.png" alt="Dryva wireframe">
 						</div>
 
 
@@ -198,18 +197,18 @@
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<h3 class="text-2xl md:text-3xl font-semibold text-blue-600 dark:text-white">Visual Design</h3>
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also give the product an exciting feel.
 				</p>
 
 				<div class="w-full mt-8">
-					<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312623/kingsley%20omin/Dryva-visual-design.png" alt="Project Dryva">
+					<img class="h-auto w-full" src="../assets/images/dryva/dryva-visual-design.png" alt="Project Dryva">
 				</div>
 			</div>
 
-			<div class="my-12 md:my-20">
+			<div class="my-12 md:my-16">
 				<p class="mt-4 md:mt-8 lg:mt-10">
 					Once the design structure was approved, we moved into full swing with the designs. In an attempt to attract as many users as possible, We tried to use elements and icons similar to popular ride-hailing applications just to help ease navigation and we also took some time to learn and understand what it means to have a strong visual design, making sure the product was usable and appealing to our audience.
 					We paid particular attention to the app’s usability, to ensure that users could navigate through with ease and perform actions with minimal effort. We delivered the final designs to the developers on schedule. Once we handed off the final designs, we were on stand-by for development support while they finished building the app. During the development process, we were able to catch missed interactions and clarify the flow of pages.
@@ -218,51 +217,51 @@
 				<div class="p-8 md:p-12 lg:p-24 bg-yellow-100 rounded-lg mt-10">
 					<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 py-6">
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-1.png" alt="Project Dryva screen">
+							<img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-1.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-2.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-2.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-3.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-3.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-4.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-4.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-5.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-5.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-6.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-6.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-7.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-7.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-8.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-8.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-9.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-9.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-10.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-10.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-11.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-11.png" alt="Project Dryva screen">
 						</div>
 
 						<div>
-							<img class="h-auto w-full" src="https://res.cloudinary.com/mercyikpe/image/upload/v1597312621/kingsley%20omin/Dryva-12.png" alt="Project Dryva screen">
+                            <img class="h-auto w-full" src="../assets/images/dryva/dryva-screen-12.png" alt="Project Dryva screen">
 						</div>
 
 					</div>
@@ -270,10 +269,10 @@
 			</div>
 
 
-			<div class="my-16 hidden">
+			<div class="my-16">
 				<a
-						href="https://www.figma.com/proto/fxgWKYHKuPLPIc8uh1s1Dg/SAVOLOGY?node-id=196%3A11118&viewport=579%2C421%2C0.03894153609871864&scaling=min-zoom"
-						class="underline sm:font-xl text-yellow-600 mt-8 font-medium">
+                    href="https://www.figma.com/proto/fxgWKYHKuPLPIc8uh1s1Dg/SAVOLOGY?node-id=196%3A11118&viewport=579%2C421%2C0.03894153609871864&scaling=min-zoom"
+                    class="underline sm:font-xl text-yellow-600 mt-8 font-medium">
 					Click to view prototype
 				</a>
 			</div>
@@ -287,14 +286,16 @@
 	import Icon from "../assets/icons/Icon";
 	import Header from "../components/Header";
 	import Footer from "../components/Footer";
-		import DarkModeToggle from "../components/DarkModeToggle";
 
 	export default {
 		name: "dryva",
-		components: {DarkModeToggle, Footer, Icon, Header}
+		components: {Footer, Icon, Header}
 	}
 </script>
 
 <style scoped>
 	.list-disc {}
+    p {
+        line-height: 44px;
+    }
 </style>
