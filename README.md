@@ -1,24 +1,18 @@
-# kingsleyomin
+# kingsley omin
 
-## Project setup
-```
-yarn install
-```
+Kingsley Omin's Portfolio
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Overview
+This project is created for Kingsley Omin's portflio, it contains some of his creative work and case study.
+<br>LIVE LINK : https://kingsleyomin.onrender.com/
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Features
+- Light and dark Mode
+- About him
+- Contact page
+- case studies
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tech Used / Dependencies
+- Vue
+- Vue Router
+- Tailwind CSS
